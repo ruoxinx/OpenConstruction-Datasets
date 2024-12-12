@@ -1,5 +1,5 @@
 # OpenConstruction-Datasets
-🏗️ OpenConstruction: A Comprehensive Survey of Open-Access Visual Datasets for Advancing Data-Centric Artificial Intelligence in Construction Monitoring
+🏗️ OpenConstruction: A Systematic Survey and Analysis of Open-Access Visual Datasets for Data-Centric Artificial Intelligence in Construction Monitoring
 
 ## Overview 📋
 
