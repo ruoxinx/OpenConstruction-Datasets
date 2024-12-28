@@ -686,6 +686,24 @@
     "paper": "Thermal image dataset of construction workers unsafe actions",
     "access": "https://data.mendeley.com/datasets/rdr2vkszrc/1"
   },
+    "ThermalNet Dataset": {
+    "name": "ThermalNet Dataset",
+    "year": 2023,
+    "data_modality": "Thermal",
+    "num_images": 19418,
+    "num_classes": 7,
+    "classes": [
+      "starting and following the worker", "emergency stop", "stopping and leaving away", "picking a brick", 
+      "placing a brick", "holding the tool", "delivering the tool"
+    ],
+    "resolution": "480 × 640",
+    "annotation_types": ["Image classification"],
+    "geographical_location": "China",
+    "potential_tasks": ["Image Classification"],
+    "license": "null",
+    "paper": "Thermal image-based hand gesture recognition for worker-robot collaboration in the construction industry: A feasible study",
+    "access": "https://drive.google.com/drive/folders/11KnJ4OC3tBjUXvDSLpqW-AbPCh0z8l0y"
+  },
   "Synthetic-Rebar": {
     "name": "synthetic-datasets-for-rebar dataset",
     "year": 2023,
@@ -715,6 +733,21 @@
     "license": "CC BY 4.0",
     "paper": "A labelled dataset for rebar counting inspection on construction sites using unmanned aerial vehicles",
     "access": "https://figshare.com/articles/dataset/Rebar_counting_detection/23633703"
+  },
+    "ROADWork Dataset": {
+    "name": "Learning to Recognize, Observe, Analyze and Drive Through Work Zones",
+    "year": 2024,
+    "data_modality": "Ground RGB (real)",
+    "num_images": 7416,
+    "num_classes": null,
+    "classes": null,
+    "resolution": null,
+    "annotation_types": ["object annotations", "scene tags", "text descriptions", "2D/3D drivable path annotations"],
+    "geographical_location": "U.S.",
+    "potential_tasks": ["Object detection", "Semantic segmentation", "Image captioning", "Pathway prediction"],
+    "license": "Open Data Commons Attribution License v1.0",
+    "paper": "ROADWork Dataset: Learning to Recognize, Observe, Analyze and Drive Through Work Zones",
+    "access": "https://github.com/anuragxel/roadwork-dataset/?tab=readme-ov-file"
   },
   "AIDCON": {
     "name": "Aerial Image Dataset for Construction",
