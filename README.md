@@ -28,7 +28,7 @@ Our collection includes datasets for various construction-related tasks:
 
 ## Dataset Statistics 📈
 
-* Total Datasets: 40+
+* Total Datasets: 50+
 * Time Span: 2015-2024
 * Data Modalities: RGB, Thermal, Point Cloud, Synthetic
 * Geographic Coverage: Multiple countries
