@@ -1,6 +1,13 @@
 # OpenConstruction-Datasets
 🏗️ OpenConstruction: A Systematic Survey and Analysis of Open-Access Visual Datasets for Data-Centric Artificial Intelligence in Construction Monitoring
 
+<!-- Place the repo icon right beneath the heading: -->
+<p align="center">
+  <img src="icon.png"
+       width="150" />
+</p>
+
+
 ## Overview 📋
 
 OpenConstruction is a curated collection of publicly available datasets focused on construction monitoring and analysis. This repository serves as a central hub for researchers, practitioners, and developers working on AI applications in the construction industry.
