@@ -1,9 +1,9 @@
-<table style="border="0" cellspacing="0"; width: 100%;">
+<table style="border="0" cellspacing="0"">
   <tr style="border="0" cellspacing="0";">
-    <td style="border="0" cellspacing="0"; vertical-align: middle; width: 200px;">
+    <td style="border="0" cellspacing="0"; vertical-align: middle; width: 250px;">
       <img 
         src="https://github.com/ruoxinx/OpenConstruction-Datasets/blob/main/icon.png"
-        width="200"
+        width="250"
       />
     </td>
     <td style="border="0" cellspacing="0"; vertical-align: middle;text-align: left;">
