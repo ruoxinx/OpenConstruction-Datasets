@@ -1,12 +1,9 @@
-# OpenConstruction-Datasets
+# <img src="icon.png"
+  width="180" 
+  style="vertical-align: middle;" />
+&nbsp;OpenConstruction-Datasets
+
 🏗️ OpenConstruction: A Systematic Survey and Analysis of Open-Access Visual Datasets for Data-Centric Artificial Intelligence in Construction Monitoring
-
-<!-- Place the repo icon right beneath the heading: -->
-<p align="center">
-  <img src="icon.png"
-       width="150" />
-</p>
-
 
 ## Overview 📋
 
