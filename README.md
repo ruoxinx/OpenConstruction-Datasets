@@ -1,12 +1,12 @@
-<table style="border: none; width: 100%;">
-  <tr style="border:none;">
-    <td style="border:none; vertical-align: middle; width: 150px;">
+<table style="border="0" cellspacing="0"; width: 100%;">
+  <tr style="border="0" cellspacing="0";">
+    <td style="border="0" cellspacing="0"; vertical-align: middle; width: 200px;">
       <img 
         src="https://github.com/ruoxinx/OpenConstruction-Datasets/blob/main/icon.png"
         width="200"
       />
     </td>
-    <td style="border:none; vertical-align: middle;text-align: left;">
+    <td style="border="0" cellspacing="0"; vertical-align: middle;text-align: left;">
       <h1 style="margin-bottom: 0;">OpenConstruction Datasets</h1>
       <p style="margin-top: 0; font-size: 1.1em;">
         <em>
