@@ -1,11 +1,41 @@
-<h1>
+<div style="display: flex; align-items: center; margin-bottom: 1em;">
   <img 
     src="https://github.com/ruoxinx/OpenConstruction-Datasets/blob/main/icon.png"
-    width="150"
-    style="vertical-align: middle; margin-right: 10px;"
+    width="130" 
+    style="margin-right: 20px;"
   />
-  OpenConstruction-Datasets
-</h1>
+  
+  <div>
+    <h1 style="margin: 0;">OpenConstruction-Datasets</h1>
+    <p style="margin: 0; font-size: 1.1em;">
+      <em>OpenConstruction: A Systematic Survey and Analysis of Open-Access Visual Datasets 
+      for Data-Centric Artificial Intelligence in Construction Monitoring</em>
+    </p>
+  </div>
+</div>
+
+<!-- Then your main README content follows below -->
+<!-- At the very top of your README.md -->
+<div style="display: flex; align-items: center; margin-bottom: 1em;">
+  <!-- Logo on the left -->
+  <img 
+    src="https://raw.githubusercontent.com/YourUsername/YourRepo/main/path/to/your-logo.png" 
+    alt="Open Construction Datasets Logo" 
+    width="130" 
+    style="margin-right: 20px;"
+  />
+  
+  <!-- Title and subtitle on the right -->
+  <div>
+    <h1 style="margin: 0;">OpenConstruction-Datasets</h1>
+    <p style="margin: 0; font-size: 1.1em;">
+      <em>OpenConstruction: A Systematic Survey and Analysis of Open-Access Visual Datasets 
+      for Data-Centric Artificial Intelligence in Construction Monitoring</em>
+    </p>
+  </div>
+</div>
+
+<!-- Then your main README content follows below -->
 
 
 OpenConstruction: A Systematic Survey and Analysis of Open-Access Visual Datasets for Data-Centric Artificial Intelligence in Construction Monitoring
