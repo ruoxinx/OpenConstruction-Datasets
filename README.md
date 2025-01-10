@@ -10,7 +10,7 @@
   <div style="margin-right: 20px;">
     <img 
       src="https://github.com/ruoxinx/OpenConstruction-Datasets/blob/main/icon.png"
-      width="150"
+      width="100"
       alt="OpenConstruction Datasets Icon"
     />
   </div>
