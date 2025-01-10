@@ -1,10 +1,11 @@
-<img 
+<h1>
+  <img 
     src="https://github.com/ruoxinx/OpenConstruction-Datasets/blob/main/icon.png"
-  width="150"
-  style="vertical-align: middle;"
-/>
-&nbsp;
-# OpenConstruction-Datasets
+    width="200"
+    style="vertical-align: middle; margin-right: 10px;"
+  />
+  OpenConstruction-Datasets
+</h1>
 
 
 🏗️ OpenConstruction: A Systematic Survey and Analysis of Open-Access Visual Datasets for Data-Centric Artificial Intelligence in Construction Monitoring
