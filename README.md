@@ -1,31 +1,22 @@
-<div 
-  style="
-    display: flex; 
-    align-items: center; 
-    justify-content: center;
-    margin: 0 auto;
-  "
->
-  <!-- Left side: icon -->
-  <div style="margin-right: 20px;">
-    <img 
-      src="https://github.com/ruoxinx/OpenConstruction-Datasets/blob/main/icon.png"
-      width="100"
-      alt="OpenConstruction Datasets Icon"
-    />
-  </div>
-
-  <!-- Right side: text -->
-  <div style="text-align: center;">
-    <h1 style="margin-bottom: 0;">OpenConstruction Datasets</h1>
-    <p style="margin-top: 0; font-size: 1.1em;">
-      <em>
-        OpenConstruction: A Systematic Survey and Analysis of Open-Access Visual 
-        Datasets for Data-Centric Artificial Intelligence in Construction Monitoring
-      </em>
-    </p>
-  </div>
-</div>
+<table style="border: none; border-collapse: collapse; margin: 0 auto;">
+  <tr style="border: none;">
+    <td style="border: none; vertical-align: middle; width: 250px;">
+      <img 
+        src="https://github.com/ruoxinx/OpenConstruction-Datasets/blob/main/icon.png"
+        width="250"
+      />
+    </td>
+    <td style="border: none; vertical-align: middle; text-align: center;">
+      <h1 style="margin-bottom: 0;">OpenConstruction Datasets</h1>
+      <p style="margin-top: 0; font-size: 1.1em;">
+        <em>
+          OpenConstruction: A Systematic Survey and Analysis of Open-Access Visual 
+          Datasets for Data-Centric Artificial Intelligence in Construction Monitoring
+        </em>
+      </p>
+    </td>
+  </tr>
+</table>
 
 
 ## Overview 📋
