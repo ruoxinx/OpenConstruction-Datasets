@@ -1,10 +1,21 @@
-<div style="display: flex; align-items: center; justify-content: center;">
+<div 
+  style="
+    display: flex; 
+    align-items: center; 
+    justify-content: center;
+    margin: 0 auto;
+  "
+>
+  <!-- Left side: icon -->
   <div style="margin-right: 20px;">
-    <img
+    <img 
       src="https://github.com/ruoxinx/OpenConstruction-Datasets/blob/main/icon.png"
       width="250"
+      alt="OpenConstruction Datasets Icon"
     />
   </div>
+
+  <!-- Right side: text -->
   <div style="text-align: center;">
     <h1 style="margin-bottom: 0;">OpenConstruction Datasets</h1>
     <p style="margin-top: 0; font-size: 1.1em;">
@@ -15,6 +26,7 @@
     </p>
   </div>
 </div>
+
 
 ## Overview 📋
 
