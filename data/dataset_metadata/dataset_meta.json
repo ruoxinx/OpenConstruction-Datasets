@@ -236,24 +236,6 @@
     "paper": "Annotation Tool and Urban Dataset for 3D Point Cloud Semantic Segmentation",
     "access": "https://ieee-dataport.org/documents/pc-urban-outdoor-dataset-3d-point-cloud-semantic-segmentation"
   },
-  "Safety-Helmet-2021": {
-    "name": "Safety Helmet Wearing Dataset",
-    "year": 2021,
-    "data_modality": "Ground RGB (real)",
-    "num_images": 5000,
-    "num_classes": 6,
-    "classes": [
-      "helmet", "head with helmet", "person with helmet", 
-      "head", "person no helmet", "face"
-    ],
-    "resolution": "Not Specified",
-    "annotation_types": ["Bounding boxes"],
-    "geographical_location": "Not Specified",
-    "potential_tasks": ["Object detection"],
-    "license": "CC BY 3.0",
-    "paper": "Safety Helmet Wearing Dataset",
-    "access": "https://data.mendeley.com/datasets/9rcv8mm682/1"
-  },
   "Kenki-Posi": {
     "name": "kenki-posi dataset",
     "year": 2021,
@@ -269,7 +251,6 @@
     "paper": "Stereo camera visual SLAM with hierarchical masking and motion-state classification at outdoor construction sites containing large dynamic objects",
     "access": "https://github.com/RunqiuBao/kenki-positioning-vSLAM"
   },
-  {
   "CHV": {
     "name": "Color Helmet and Vest Dataset",
     "year": 2021,
@@ -318,9 +299,7 @@
     "license": "Not Specified",
     "paper": "Pose guided anchoring for detecting proper use of personal protective equipment",
     "access": "https://github.com/ruoxinx/PPE-Detection-Pose"
-  }
-}
-{
+  },
   "Safety-Harness": {
     "name": "Safety harness dataset",
     "year": 2022,
@@ -406,9 +385,7 @@
     "license": "CC BY 4.0",
     "paper": "PPE detector: a YOLO-based architecture to detect personal protective equipment (PPE) for construction sites",
     "access": "https://figshare.com/articles/dataset/CHVG_Dataset/19625166/1?file=34858290"
-  }
-}
-{
+  },
   "SHEL5K": {
     "name": "SHEL5K",
     "year": 2022,
@@ -495,9 +472,7 @@
     "license": "CC BY 4.0",
     "paper": "CODD: A benchmark dataset for the automated sorting of construction and demolition waste",
     "access": "https://data.mendeley.com/datasets/wds85kt64j/3"
-  }
-}
-{
+  },
   "ConSLAM": {
     "name": "ConSLAM: Construction Dataset for SLAM",
     "year": 2023,
@@ -630,9 +605,7 @@
     "license": "Not Specified",
     "paper": "VCVW-3D: A Virtual Construction Vehicles and Workers Dataset with 3D Annotations",
     "access": "https://github.com/dyxm/VCVW-3D"
-  }
-}
-{
+  },
   "Scaffolding": {
     "name": "Scaffolding Dataset",
     "year": 2023,
@@ -652,6 +625,25 @@
     "license": "Not Specified",
     "paper": "Video-image based mobile scaffolding safety detection using deep learning and internet of things (IOT)",
     "access": "https://universe.roboflow.com/md-rakibul-islam/scaffolding-xxcds"
+  },
+    "Small size construction tool dataset": {
+    "name": "Small size construction tool dataset",
+    "year": 2023,
+    "data_modality": "Ground RGB (real)",
+    "num_images": 25,084,
+    "num_classes": 12,
+    "classes": [
+	  "bucket", "cutter", "drill", "grinder", 
+	  "hammer", "knife", "saw", "shovel", 
+	  "spanner", "tacker", "trowel", "wrench"
+    ],
+    "resolution": "Not Specified",
+    "annotation_types": ["Bounding boxes"],
+    "geographical_location": "Korea",
+    "potential_tasks": ["Object detection"],
+    "license": "CC BY 4.0",
+    "paper": "Small Tool Image Database and Object Detection Approach for Indoor Construction Site Safety",
+    "access": "https://doi.org/10.5281/zenodo.6530106"
   },
   "ConPR": {
     "name": "Ongoing Construction Site dataset",
