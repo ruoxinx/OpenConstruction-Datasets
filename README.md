@@ -17,9 +17,8 @@
     </td>
   </tr>
 </table>
----
 
-# Table of Contents 📌
+## Table of Contents 📌
 1. [Overview 📋](#overview-)
 2. [Motivation 🎯](#motivation-)
 3. [Dataset Categories 📊](#dataset-categories-)
