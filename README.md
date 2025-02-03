@@ -17,6 +17,24 @@
     </td>
   </tr>
 </table>
+---
+
+# Table of Contents 📌
+1. [Overview 📋](#overview-)
+2. [Motivation 🎯](#motivation-)
+3. [Dataset Categories 📊](#dataset-categories-)
+4. [Dataset Statistics 📈](#dataset-statistics-)
+5. [Using the Repository 🔍](#using-the-repository-)
+   - [Dataset Catalog](#dataset-catalog)
+   - [Dataset Selection Guide](#dataset-selection-guide)
+6. [Dataset Markdown 📄](#dataset-markdown-)
+7. [Contributing to OpenConstruction 🤝](#contributing-to-openconstruction-)
+   - [How to Contribute](#how-to-contribute)
+   - [Types of Contributions](#types-of-contributions)
+8. [Contact 📧](#contact-)
+9. [Acknowledgments 🙏](#acknowledgments-)
+
+---
 
 
 ## Overview 📋
@@ -63,6 +81,8 @@ Our collection includes datasets for various construction-related tasks:
   * Task-specific annotations
   * Licensing information
   * Access links and citations
+  
+* Easy navigation: **[Dataset List](datasets.md)**
 
 ### Dataset Selection Guide
 Consider the following when choosing datasets:
