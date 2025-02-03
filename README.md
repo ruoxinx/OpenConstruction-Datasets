@@ -27,12 +27,11 @@
 5. [Using the Repository 🔍](#using-the-repository-)
    - [Dataset Catalog](#dataset-catalog)
    - [Dataset Selection Guide](#dataset-selection-guide)
-6. [Dataset Markdown 📄](#dataset-markdown-)
-7. [Contributing to OpenConstruction 🤝](#contributing-to-openconstruction-)
+6. [Contributing to OpenConstruction 🤝](#contributing-to-openconstruction-)
    - [How to Contribute](#how-to-contribute)
    - [Types of Contributions](#types-of-contributions)
-8. [Contact 📧](#contact-)
-9. [Acknowledgments 🙏](#acknowledgments-)
+7. [Contact 📧](#contact-)
+8. [Acknowledgments 🙏](#acknowledgments-)
 
 ---
 
