@@ -80,7 +80,7 @@ Our collection includes datasets for various construction-related tasks:
   * Licensing information
   * Access links and citations
   
-* Easy navigation: **[Dataset List](datasets.md)**
+* Easy navigation: **[Dataset List](./data/datasets.md)**
 
 ### Dataset Selection Guide
 Consider the following when choosing datasets:
