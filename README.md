@@ -2,7 +2,7 @@
   <tr style="border: none;">
     <td style="border: none; vertical-align: middle; width: 250px;">
       <img 
-        src="https://github.com/ruoxinx/OpenConstruction-Datasets/blob/main/icon.png"
+        src="./media/icon.png"
         width="250"
       />
     </td>
@@ -18,29 +18,29 @@
   </tr>
 </table>
 
-## Table of Contents 📌
-1. [Overview 📋](#overview-)
-2. [Motivation 🎯](#motivation-)
-3. [Dataset Categories 📊](#dataset-categories-)
-4. [Dataset Statistics 📈](#dataset-statistics-)
-5. [Using the Repository 🔍](#using-the-repository-)
+## Table of Contents
+1. [Overview](#overview-)
+2. [Motivation](#motivation-)
+3. [Dataset Categories](#dataset-categories-)
+4. [Dataset Statistics](#dataset-statistics-)
+5. [Using the Repository](#using-the-repository-)
    - [Dataset Catalog](#dataset-catalog)
    - [Dataset Selection Guide](#dataset-selection-guide)
-6. [Contributing to OpenConstruction 🤝](#contributing-to-openconstruction-)
+6. [Contributing to OpenConstruction](#contributing-to-openconstruction-)
    - [How to Contribute](#how-to-contribute)
    - [Types of Contributions](#types-of-contributions)
-7. [Contact 📧](#contact-)
-8. [Acknowledgments 🙏](#acknowledgments-)
+7. [Contact](#contact-)
+8. [Acknowledgments](#acknowledgments-)
 
 ---
 
 
-## Overview 📋
+## 📋 Overview 
 
 OpenConstruction is a curated collection of publicly available datasets focused on construction monitoring and analysis. This repository serves as a central hub for researchers, practitioners, and developers working on AI applications in the construction industry.
 
 
-## Motivation 🎯
+## 🎯 Motivation 
 The construction industry is rapidly adopting AI-driven computer vision solutions for monitoring, safety, and efficiency improvements. However, the development of effective AI models requires access to high-quality, diverse datasets. Our survey addresses this need by:
 
 * Providing a comprehensive catalog of open-access construction-related datasets
@@ -49,7 +49,7 @@ The construction industry is rapidly adopting AI-driven computer vision solution
 * Supporting reproducible research in construction AI
 
 
-## Dataset Categories 📊
+## 📊 Dataset Categories 
 
 Our collection includes datasets for various construction-related tasks:
 
@@ -60,7 +60,7 @@ Our collection includes datasets for various construction-related tasks:
 * Image Captioning
 * SLAM/Visual Localization
 
-## Dataset Statistics 📈
+## 📈 Dataset Statistics 
 
 * Total Datasets: 50+
 * Time Span: 2015-2024
@@ -68,7 +68,7 @@ Our collection includes datasets for various construction-related tasks:
 * Geographic Coverage: Multiple countries
 * Various Annotation Types: Bounding boxes, segmentation masks, keypoints, captions
 
-## Using the Repository 🔍
+## 🔍 Using the Repository
 
 ### Dataset Catalog
 * Browse the complete dataset listing in `data/dataset_catalog.csv`
@@ -90,7 +90,7 @@ Consider the following when choosing datasets:
 * Licensing restrictions
 * Geographical relevance
 
-## Contributing to OpenConstruction 🤝
+## 🤝 Contributing to OpenConstruction
 
 We welcome contributions from the community! Your support helps make this resource more valuable for everyone.
 
@@ -112,13 +112,13 @@ We welcome contributions from the community! Your support helps make this resour
 - Add a metadata file to `data/dataset_metadata/` following the structure of existing JSON files.
 - Update `data/dataset_catalog.csv` with a new entry for your dataset.
 
-## Contact 📧
+## 📧 Contact
 
 For questions, suggestions, or collaboration opportunities:
 * Open an issue in this repository
 * Contact: rxiong3@kent.edu
 
-## Acknowledgments 🙏
+## 🙏 Acknowledgments
 
 We thank all dataset creators and contributors who make their data publicly available for advancing construction AI research.
 
