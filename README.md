@@ -80,7 +80,7 @@ Our collection includes datasets for various construction-related tasks:
   * Licensing information
   * Access links and citations
   
-* Easy navigation: **[Dataset List](./data/datasets.md)**
+👉 Quick access: **[Dataset List](./data/datasets.md)**
 
 ### Dataset Selection Guide
 Consider the following when choosing datasets:
@@ -122,6 +122,16 @@ For questions, suggestions, or collaboration opportunities:
 
 We thank all dataset creators and contributors who make their data publicly available for advancing construction AI research.
 
----
+More details can be found in the reference below:
 
-Made with ❤️ by the Construction AI Research Community. Thank you for making OpenConstruction better! 🙌
+```
+@misc{xiong2025openconstructionsystematicsynthesisopen,
+      title={OpenConstruction: A Systematic Synthesis of Open Visual Datasets for Data-Centric Artificial Intelligence in Construction Monitoring}, 
+      author={Ruoxin Xiong and Yanyu Wang and Jiannan Cai and Kaijian Liu and Yuansheng Zhu and Pingbo Tang and Nora El-Gohary},
+      year={2025},
+      eprint={2508.11482},
+      archivePrefix={arXiv},
+      primaryClass={cs.CV},
+      url={https://arxiv.org/abs/2508.11482}, 
+}
+```
