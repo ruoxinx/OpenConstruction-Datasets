@@ -1,11 +1,3 @@
-# OpenConstruction Datasets  
-
-[![Website](https://img.shields.io/badge/Website-OpenConstruction-blue?style=flat-square&logo=google-chrome)](https://ruoxinx.github.io/open-construction)  
-[![arXiv](https://img.shields.io/badge/arXiv-2508.11482-b31b1b?style=flat-square&logo=arxiv)](https://arxiv.org/abs/2508.11482)  
-[![Contributions Welcome](https://img.shields.io/badge/Contributions-Welcome-brightgreen?style=flat-square&logo=github)](https://github.com/ruoxinx/OpenConstruction-Datasets/issues)  
-
----
-
 <table style="border: none; border-collapse: collapse; margin: 0 auto;">
   <tr style="border: none;">
     <td style="border: none; vertical-align: middle; width: 250px;">
@@ -16,13 +8,14 @@
       <p style="margin-top: 0; font-size: 1.1em;">
         <em>
           A Systematic Synthesis of Open Visual Datasets for Data-Centric Artificial Intelligence in Construction Monitoring
+		  
+		  [![Website](https://img.shields.io/badge/Website-OpenConstruction-blue?style=flat-square&logo=google-chrome)](https://ruoxinx.github.io/open-construction) [![arXiv](https://img.shields.io/badge/arXiv-2508.11482-b31b1b?style=flat-square&logo=arxiv)](https://arxiv.org/abs/2508.11482) [![License](https://img.shields.io/badge/License-MIT-green?style=flat-square)](./LICENSE) [![Contributions Welcome](https://img.shields.io/badge/Contributions-Welcome-brightgreen?style=flat-square&logo=github)](https://github.com/ruoxinx/OpenConstruction-Datasets/issues)  
         </em>
       </p>
     </td>
   </tr>
 </table>
 
----
 
 ## 🌐 Quick Links  
 
@@ -31,15 +24,13 @@
 - **Share an Idea or Feedback:** [Open suggestion](https://github.com/ruoxinx/OpenConstruction-Datasets/issues/new?template=suggestion.yml)  
 - **Request Dataset Removal:** Contact us at **[ruoxinx@outlook.com](mailto:ruoxinx@outlook.com)** from a verifiable email.  
 
----
----
 
 ## 📋 Overview  
 
 **OpenConstruction** is a curated collection of open-access datasets for construction monitoring and analysis.  
 It provides a centralized resource for researchers, practitioners, and developers working on AI applications in the construction industry.  
 
----
+
 
 ## 🎯 Motivation  
 
@@ -51,20 +42,19 @@ This project addresses that need by:
 - Supporting **benchmarking and reproducible research**  
 - Facilitating AI model development across tasks and modalities  
 
----
+
 
 ## 📊 Dataset Categories  
 
 Our catalog spans a variety of construction-relevant tasks:  
 
-- **Object Detection** (PPE, equipment, materials)  
+- **Object Detection** 
 - **Semantic Segmentation**  
 - **Action Recognition**  
 - **Pose Estimation**  
 - **Image Captioning**  
 - **SLAM / Visual Localization**  
 
----
 
 ## 📈 Dataset Statistics  
 
@@ -73,7 +63,6 @@ Our catalog spans a variety of construction-relevant tasks:
 - **Annotations:** Bounding boxes, segmentation masks, keypoints, captions  
 - **Geographic Coverage:** Multi-country, diverse contexts  
 
----
 
 ## 🤝 Contributing  
 
@@ -83,7 +72,6 @@ Use the quick templates:
 - [Suggest a New Dataset](https://github.com/ruoxinx/OpenConstruction-Datasets/issues/new?template=new_dataset.yml)  
 - [Share Feedback](https://github.com/ruoxinx/OpenConstruction-Datasets/issues/new?template=suggestion.yml)  
 
----
 
 ## 📧 Contact  
 
