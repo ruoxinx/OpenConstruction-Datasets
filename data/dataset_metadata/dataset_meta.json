@@ -868,4 +868,19 @@
     "paper": "Utilizing synthetic images to enhance the automated recognition of small-sized construction tools",
     "access": "https://github.com/SenseableSpace/Detection-Small-Construction-Tools-Synthetic-Images"
   }
+    "CP3D": {
+    "name": "Construction Pose 3D dataset",
+    "year": 2024,
+    "data_modality": "Ground RGB (real)",
+    "num_images": 421000,
+    "num_classes": 14,
+    "classes": [],
+    "resolution": "Not Specified",
+    "annotation_types": ["3D human pose"],
+    "geographical_location": "Canada ",
+    "potential_tasks": ["Ergonomic risk assessment"],
+    "license": "Not Specified",
+    "paper": "3D pose estimation dataset and deep learning-based ergonomic risk assessment in construction",
+    "access": "https://github.com/xinmingliUofA/CP3D"
+  }
 }
