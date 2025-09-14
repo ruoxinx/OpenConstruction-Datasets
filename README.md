@@ -6,16 +6,11 @@
     <td style="border: none; vertical-align: middle; text-align: center;">
       <h1 style="margin-bottom: 0;">OpenConstruction Datasets</h1>
       <p style="margin-top: 0; font-size: 1.1em;">
-        <em>
           A Systematic Synthesis of Open Visual Datasets for Data-Centric Artificial Intelligence in Construction Monitoring
-		
-        </em>
-      </p>
-    </td>
   </tr>
 </table>
 
-[![Website](https://img.shields.io/badge/Website-OpenConstruction-blue?style=flat-square&logo=google-chrome)](https://ruoxinx.github.io/open-construction) [![arXiv](https://img.shields.io/badge/arXiv-2508.11482-b31b1b?style=flat-square&logo=arxiv)](https://arxiv.org/abs/2508.11482) [![License](https://img.shields.io/badge/License-MIT-green?style=flat-square)](./LICENSE) [![Contributions Welcome](https://img.shields.io/badge/Contributions-Welcome-brightgreen?style=flat-square&logo=github)](https://github.com/ruoxinx/OpenConstruction-Datasets/issues)  
+[![Website](https://img.shields.io/badge/Website-OpenConstruction-blue?style=flat-square&logo=google-chrome)](https://ruoxinx.github.io/open-construction) [![arXiv](https://img.shields.io/badge/arXiv-2508.11482-b31b1b?style=flat-square&logo=arxiv)](https://arxiv.org/abs/2508.11482) [![Contributions Welcome](https://img.shields.io/badge/Contributions-Welcome-brightgreen?style=flat-square&logo=github)](https://github.com/ruoxinx/OpenConstruction-Datasets/issues)  
 
 
 
