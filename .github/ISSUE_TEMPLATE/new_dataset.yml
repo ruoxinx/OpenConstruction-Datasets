@@ -1,0 +1,31 @@
+name: New Dataset Suggestion
+description: Propose a new dataset to add to the catalog
+title: "[Dataset] <dataset name>"
+labels: ["dataset-suggestion"]
+body:
+  - type: input
+    id: name
+    attributes: { label: Dataset name }
+    validations: { required: true }
+  - type: input
+    id: year
+    attributes: { label: Release year, placeholder: "2023" }
+  - type: input
+    id: access
+    attributes: { label: Dataset URL / Access link, placeholder: "https://..." }
+    validations: { required: true }
+  - type: input
+    id: license
+    attributes: { label: License, placeholder: "CC BY 4.0" }
+  - type: textarea
+    id: description
+    attributes: { label: Short description }
+  - type: input
+    id: modality
+    attributes: { label: Data modality, placeholder: "RGB, Video, Multispectral…" }
+  - type: textarea
+    id: classes
+    attributes: { label: Object classes (comma separated) }
+  - type: textarea
+    id: tasks
+    attributes: { label: Potential tasks (comma separated) }
