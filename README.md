@@ -1,15 +1,15 @@
 <table style="border: none; border-collapse: collapse; margin: 0 auto;">
   <tr style="border: none;">
-    <td style="border: none; vertical-align: middle; width: 250px;">
-      <img src="./media/icon.png" width="250" />
+    <td style="border: none; vertical-align: middle; width: 100px;">
+      <img src="./media/icon.png" width="100" />
     </td>
     <td style="border: none; vertical-align: middle; text-align: center;">
       <h1 style="margin-bottom: 0;">OpenConstruction Datasets</h1>
       <p style="margin-top: 0; font-size: 1.1em;">
-          A Systematic Synthesis of Open Visual Datasets for Data-Centric Artificial Intelligence in Construction Monitoring
   </tr>
 </table>
 
+A Systematic Synthesis of Open Visual Datasets for Data-Centric Artificial Intelligence in Construction Monitoring
 [![Website](https://img.shields.io/badge/Website-OpenConstruction-blue?style=flat-square&logo=google-chrome)](https://ruoxinx.github.io/open-construction) [![arXiv](https://img.shields.io/badge/arXiv-2508.11482-b31b1b?style=flat-square&logo=arxiv)](https://arxiv.org/abs/2508.11482) [![Contributions Welcome](https://img.shields.io/badge/Contributions-Welcome-brightgreen?style=flat-square&logo=github)](https://github.com/ruoxinx/OpenConstruction-Datasets/issues)  
 
 
