@@ -1,25 +1,25 @@
-<table style="border: none; border-collapse: collapse; margin: 0 auto;">
-  <tr style="border: none;">
-    <td style="border: none; vertical-align: middle; width: 100px;">
-      <img src="./media/icon.png" width="100" />
-    </td>
-    <td style="border: none; vertical-align: middle; text-align: center;">
-      <h1 style="margin-bottom: 0;">OpenConstruction Datasets</h1>
-      <p style="margin-top: 0; font-size: 1.1em;">
-  </tr>
-</table>
+<h1 align="center">
+  OpenConstruction: A Systematic Synthesis of Open Visual Datasets for Data-Centric Artificial Intelligence in Construction Monitoring
+</h1>
 
-A Systematic Synthesis of Open Visual Datasets for Data-Centric Artificial Intelligence in Construction Monitoring
-[![Website](https://img.shields.io/badge/Website-OpenConstruction-blue?style=flat-square&logo=google-chrome)](https://ruoxinx.github.io/open-construction) [![arXiv](https://img.shields.io/badge/arXiv-2508.11482-b31b1b?style=flat-square&logo=arxiv)](https://arxiv.org/abs/2508.11482) [![Contributions Welcome](https://img.shields.io/badge/Contributions-Welcome-brightgreen?style=flat-square&logo=github)](https://github.com/ruoxinx/OpenConstruction-Datasets/issues)  
-
-
+<p align="center">
+  <a href="https://ruoxinx.github.io/open-construction">
+    <img src="https://img.shields.io/badge/Website-OpenConstruction-blue?style=flat-square&logo=google-chrome" alt="Website">
+  </a>
+  <a href="https://arxiv.org/abs/2508.11482">
+    <img src="https://img.shields.io/badge/arXiv-2508.11482-b31b1b?style=flat-square&logo=arxiv" alt="arXiv">
+  </a>
+  <a href="https://github.com/ruoxinx/OpenConstruction-Datasets/issues">
+    <img src="https://img.shields.io/badge/Contributions-Welcome-brightgreen?style=flat-square&logo=github" alt="Contributions Welcome">
+  </a>
+</p>
 
 ## 🌐 Quick Links  
 
 - **New Website (Explore Datasets):** [ruoxinx.github.io/open-construction](https://ruoxinx.github.io/open-construction)  
 - **Suggest a New Dataset:** [Submit here](https://github.com/ruoxinx/OpenConstruction-Datasets/issues/new?template=new_dataset.yml)  
 - **Share an Idea or Feedback:** [Open suggestion](https://github.com/ruoxinx/OpenConstruction-Datasets/issues/new?template=suggestion.yml)  
-- **Request Dataset Removal:** Contact us at **[ruoxinx@outlook.com](mailto:ruoxinx@outlook.com)** from a verifiable email.  
+- **Request Dataset Removal:** Contact us at **[ruoxinx@outlook.com](mailto:ruoxinx@outlook.com)** from a verifiable email
 
 
 ## 📋 Overview  
@@ -76,7 +76,6 @@ For questions, suggestions, or collaboration:
 - Open an [issue](https://github.com/ruoxinx/OpenConstruction-Datasets/issues)  
 - Email: **rxiong3@kent.edu**  
 
----
 
 ## 🙏 Acknowledgments  
 
