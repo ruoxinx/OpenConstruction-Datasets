@@ -17,7 +17,7 @@ body:
       placeholder: "2023"
 
   - type: input
-    id: dataset access
+    id: access
     attributes: 
       label: Dataset URL / Access link
       placeholder: "https://..."
