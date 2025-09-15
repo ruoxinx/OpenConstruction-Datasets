@@ -1,31 +1,76 @@
 name: New Dataset Suggestion
 description: Propose a new dataset to add to the catalog
 title: "[Dataset] <dataset name>"
-labels: ["dataset-suggestion"]
+labels: ["new dataset"]
 body:
   - type: input
     id: name
-    attributes: { label: Dataset name }
-    validations: { required: true }
+    attributes: 
+      label: Dataset name
+    validations: 
+      required: true
+
   - type: input
     id: year
-    attributes: { label: Release year, placeholder: "2023" }
+    attributes: 
+      label: Release year
+      placeholder: "2023"
+
   - type: input
-    id: access
-    attributes: { label: Dataset URL / Access link, placeholder: "https://..." }
-    validations: { required: true }
+    id: dataset access
+    attributes: 
+      label: Dataset URL / Access link
+      placeholder: "https://..."
+    validations: 
+      required: true
+
   - type: input
     id: license
-    attributes: { label: License, placeholder: "CC BY 4.0" }
+    attributes: 
+      label: License
+      placeholder: "CC BY 4.0"
+
+  - type: input
+    id: paper
+    attributes: 
+      label: Paper (if available)
+      placeholder: "..."
+
+  - type: input
+    id: authors
+    attributes: 
+      label: Authors
+      placeholder: "First Author, Second Author, ..."
+
+  - type: input
+    id: doi
+    attributes: 
+      label: DOI / URL
+      placeholder: "https://..."
+
   - type: textarea
     id: description
-    attributes: { label: Short description }
+    attributes: 
+      label: Short description
+
   - type: input
     id: modality
-    attributes: { label: Data modality, placeholder: "RGB, Video, Multispectral…" }
+    attributes: 
+      label: Data modality
+      placeholder: "RGB, Video, Multispectral…"
+
   - type: textarea
     id: classes
-    attributes: { label: Object classes (comma separated) }
+    attributes: 
+      label: Object classes (comma separated)
+
   - type: textarea
     id: tasks
-    attributes: { label: Potential tasks (comma separated) }
+    attributes: 
+      label: Potential tasks (comma separated)
+
+  - type: textarea
+    id: additional_info
+    attributes: 
+      label: Additional information
+      description: "Any other notes or context"
