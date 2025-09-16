@@ -1,4 +1,4 @@
-<h1 align="center">
+<h1 align="center"> 
   OpenConstruction: A Systematic Synthesis of Open Visual Datasets for Data-Centric Artificial Intelligence in Construction Monitoring
 </h1>
 
@@ -28,7 +28,6 @@
 It provides a centralized resource for researchers, practitioners, and developers working on AI applications in the construction industry.  
 
 
-
 ## 🎯 Motivation  
 
 AI-driven computer vision is transforming construction monitoring, safety management, and productivity. Yet, robust AI development requires access to diverse and well-documented datasets.  
@@ -38,7 +37,6 @@ This project addresses that need by:
 - Standardizing metadata for easier comparison and selection  
 - Supporting **benchmarking and reproducible research**  
 - Facilitating AI model development across tasks and modalities  
-
 
 
 ## 📊 Dataset Categories  
@@ -70,6 +68,13 @@ Use the quick templates:
 - [Share Feedback](https://github.com/ruoxinx/OpenConstruction-Datasets/issues/new?template=suggestion.yml)  
 
 
+## 👥 Community Contributors  
+
+This project is enriched by the support and contributions from the community.  
+
+- [@tsrobcvai](https://github.com/tsrobcvai)  
+
+
 ## 📧 Contact  
 
 For questions, suggestions, or collaboration:  
@@ -80,6 +85,7 @@ For questions, suggestions, or collaboration:
 ## 🙏 Acknowledgments  
 
 We thank all dataset creators and contributors for making their resources publicly available to advance AI in construction.  
+
 
 ### Reference  
 
