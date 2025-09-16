@@ -69,15 +69,20 @@ We welcome community contributions to grow and improve this catalog. Use the qui
 
 This project is enriched by the support and contributions from the community. Thank you for helping grow **OpenConstruction**!  
 
+<details>
+<summary>Click to view community contributors</summary>
+<br/>
+
 <p align="center">
+  <!-- Contributor 1 -->
   <a href="https://github.com/tsrobcvai">
-    <img src="https://github.com/tsrobcvai.png" width="80" height="80" style="border-radius:50%;" alt="@tsrobcvai"/>
+    <img src="https://github.com/tsrobcvai.png" width="80" height="80" style="border-radius:50%; margin: 5px;" alt="@tsrobcvai"/>
+    <br/>
+    <sub>@tsrobcvai</sub>
   </a>
 </p>
 
-<p align="center">
-  <a href="https://github.com/tsrobcvai">@tsrobcvai</a>
-</p> 
+</details>
 
 
 ## 📧 Contact  
