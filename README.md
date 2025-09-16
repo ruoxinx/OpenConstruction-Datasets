@@ -52,8 +52,7 @@ Our catalog spans a variety of construction-relevant tasks:
 
 
 ## 📈 Dataset Statistics  
-
-- **Total Datasets:** 50+   
+  
 - **Modalities:** RGB, Thermal, Depth, LiDAR/Point Cloud, Synthetic  
 - **Annotations:** Bounding boxes, segmentation masks, keypoints, captions  
 - **Geographic Coverage:** Multi-country, diverse contexts  
@@ -61,16 +60,14 @@ Our catalog spans a variety of construction-relevant tasks:
 
 ## 🤝 Contributing  
 
-We welcome community contributions to grow and improve this catalog.  
-
-Use the quick templates:  
+We welcome community contributions to grow and improve this catalog. Use the quick templates:
 - [Suggest a New Dataset](https://github.com/ruoxinx/OpenConstruction-Datasets/issues/new?template=new_dataset.yml)  
 - [Share Feedback](https://github.com/ruoxinx/OpenConstruction-Datasets/issues/new?template=suggestion.yml)  
 
 
 ## 👥 Community Contributors  
 
-This project is enriched by the support and contributions from the community.  
+This project is enriched by the support and contributions from the community. Thank you for your contributions!
 
 - [@tsrobcvai](https://github.com/tsrobcvai)  
 
