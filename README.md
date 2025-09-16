@@ -72,11 +72,9 @@ This project is enriched by the support and contributions from the community. Th
 <p>
   <a href="https://github.com/tsrobcvai">
     <img src="https://github.com/tsrobcvai.png" width="60" height="60" style="border-radius:50%; margin: 4px;" alt="@tsrobcvai"/>
+    <br/>
+    <sub>@tsrobcvai</sub>
   </a>
-</p>
-
-<p>
-  <a href="https://github.com/tsrobcvai">@tsrobcvai</a>
 </p>
 
 
