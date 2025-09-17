@@ -16,7 +16,7 @@
 
 ## 🌐 Quick Links  
 
-- **New Website (Explore Datasets):** [ruoxinx.github.io/open-construction](https://ruoxinx.github.io/open-construction)  
+- 💥 **New Website (Explore Datasets):** [ruoxinx.github.io/open-construction](https://ruoxinx.github.io/open-construction)  
 - **Suggest a New Dataset:** [Submit here](https://github.com/ruoxinx/OpenConstruction-Datasets/issues/new?template=new_dataset.yml)  
 - **Share an Idea or Feedback:** [Open suggestion](https://github.com/ruoxinx/OpenConstruction-Datasets/issues/new?template=suggestion.yml)  
 - **Request Dataset Removal:** Contact us at **[ruoxinx@outlook.com](mailto:ruoxinx@outlook.com)** from a verifiable email
@@ -48,7 +48,7 @@ Our catalog spans a variety of construction-relevant tasks:
 - **Action Recognition**  
 - **Pose Estimation**  
 - **Image Captioning**  
-- **SLAM / Visual Localization**  
+- **SLAM / Visual Localization** 
 
 
 ## 📈 Dataset Statistics  
