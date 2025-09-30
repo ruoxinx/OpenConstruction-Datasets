@@ -2,21 +2,53 @@
 <rss version="2.0">
   <channel>
     <title>OpenConstruction — Updates</title>
-    <link>http://ruoxinx.github.io/open-construction-test/</link>
+    <link>https://github.com/ruoxinx/open-construction/</link>
     <description>Newest datasets and models from OpenConstruction</description>
     <language>en-US</language>
 
   <item>
     <title><![CDATA[Dataset: Architectural–structural Design Pairs]]></title>
-    <link>http://ruoxinx.github.io/open-construction-test/datasets/detail.html?id=structgan</link>
+    <link>https://github.com/ruoxinx/open-construction/datasets/detail.html?id=structgan</link>
     <guid isPermaLink="false">datasets:structgan:2025-09-28</guid>
     <pubDate>Sun, 28 Sep 2025 00:00:00 GMT</pubDate>
     <description><![CDATA[New dataset added to OpenConstruction.]]></description>
   </item>
 
   <item>
+    <title><![CDATA[Dataset: MEP2BIM Dataset]]></title>
+    <link>https://github.com/ruoxinx/open-construction/datasets/detail.html?id=mep2bim</link>
+    <guid isPermaLink="false">datasets:mep2bim:2025-09-28</guid>
+    <pubDate>Sun, 28 Sep 2025 00:00:00 GMT</pubDate>
+    <description><![CDATA[New dataset added to OpenConstruction.]]></description>
+  </item>
+
+  <item>
+    <title><![CDATA[Dataset: BFA-YOLO Construction Safety Dataset]]></title>
+    <link>https://github.com/ruoxinx/open-construction/datasets/detail.html?id=bfa-yolo-dataset</link>
+    <guid isPermaLink="false">datasets:bfa-yolo-dataset:2025-09-28</guid>
+    <pubDate>Sun, 28 Sep 2025 00:00:00 GMT</pubDate>
+    <description><![CDATA[New dataset added to OpenConstruction.]]></description>
+  </item>
+
+  <item>
+    <title><![CDATA[Dataset: MLSTRUCT-FP: Machine Learning STRUCTural Floor Plan Dataset]]></title>
+    <link>https://github.com/ruoxinx/open-construction/datasets/detail.html?id=mlstruct-fp</link>
+    <guid isPermaLink="false">datasets:mlstruct-fp:2025-09-28</guid>
+    <pubDate>Sun, 28 Sep 2025 00:00:00 GMT</pubDate>
+    <description><![CDATA[New dataset added to OpenConstruction.]]></description>
+  </item>
+
+  <item>
+    <title><![CDATA[Dataset: TBBR dataset: Thermal Bridges on Building Rooftops]]></title>
+    <link>https://github.com/ruoxinx/open-construction/datasets/detail.html?id=TBBR</link>
+    <guid isPermaLink="false">datasets:TBBR:2025-09-28</guid>
+    <pubDate>Sun, 28 Sep 2025 00:00:00 GMT</pubDate>
+    <description><![CDATA[New dataset added to OpenConstruction.]]></description>
+  </item>
+
+  <item>
     <title><![CDATA[Model: ETHcavation: A Dataset and Pipeline for Panoptic Scene Understanding and Object Tracking in Dynamic Construction Environments]]></title>
-    <link>http://ruoxinx.github.io/open-construction-test/models/detail.html?id=ETHcavation</link>
+    <link>https://github.com/ruoxinx/open-construction/models/detail.html?id=ETHcavation</link>
     <guid isPermaLink="false">models:ETHcavation:2025-09-28</guid>
     <pubDate>Sun, 28 Sep 2025 00:00:00 GMT</pubDate>
     <description><![CDATA[Construction sites are challenging environments for autonomous systems due to their unstructured nature and the presence of dynamic actors, such as workers and machinery. This work presents a comprehensive panoptic scene understanding solution designed to handle the complexities of such environments by integrating 2D panoptic segmentation with 3D LiDAR mapping. Our system generates detailed environmental representations in real-time by combining semantic and geometric data, supported by Kalman Filter-based tracking for dynamic object detection. We introduce a fine-tuning method that adapts large pre-trained panoptic segmentation models for construction site applications using a limited number of domain-specific samples. For this use case, we release a first-of-its-kind dataset of 502 hand-labeled sample images with panoptic annotations from construction sites. In addition, we propose a dynamic panoptic mapping technique that enhances scene understanding in unstructured environments. As a case study, we demonstrate the system's application for autonomous navigation, utilizing real-time RRT* for reactive path planning in dynamic scenarios. The dataset and code for training and deployment are publicly available to support future research.]]></description>
@@ -24,7 +56,7 @@
 
   <item>
     <title><![CDATA[Model: Buildee: A 3D Simulation Framework for Scene Exploration and Reconstruction with Understanding]]></title>
-    <link>http://ruoxinx.github.io/open-construction-test/models/detail.html?id=Buildee</link>
+    <link>https://github.com/ruoxinx/open-construction/models/detail.html?id=Buildee</link>
     <guid isPermaLink="false">models:Buildee:2025-09-28</guid>
     <pubDate>Sun, 28 Sep 2025 00:00:00 GMT</pubDate>
     <description><![CDATA[We introduce Buildee, a 3D simulation framework designed to benchmark scene exploration, 3D reconstruction, and semantic segmentation tasks in both static and dynamic environments. Built as a Python module on top of Blender, Buildee leverages its advanced rendering capabilities to generate realistic RGB, depth, and semantic data while enabling 2D / 3D point tracking and occlusion checking. Additionally, we provide a procedural generator for construction site environments and baseline methods for key computer vision tasks. Through Buildee, we establish a standardized platform for evaluating scene understanding algorithms in realistic settings. Our code is publicly available at https://github.com/clementinboittiaux/buildee.]]></description>
@@ -32,7 +64,7 @@
 
   <item>
     <title><![CDATA[Model: Advancing construction site workforce safety monitoring through BIM and computer vision integration]]></title>
-    <link>http://ruoxinx.github.io/open-construction-test/models/detail.html?id=Worker-Safety-Twin</link>
+    <link>https://github.com/ruoxinx/open-construction/models/detail.html?id=Worker-Safety-Twin</link>
     <guid isPermaLink="false">models:Worker-Safety-Twin:2025-09-28</guid>
     <pubDate>Sun, 28 Sep 2025 00:00:00 GMT</pubDate>
     <description><![CDATA[Ensuring a safe work environment is crucial for construction projects. It is essential that workforce monitoring is both efficient and non-intrusive to the ongoing construction activities. This paper introduces a method that integrates building information modeling (BIM) and computer vision to monitor workforce safety hazards at construction sites in real time. Despite the rising adoption of BIM and computer vision individually within the construction sector, the potential of their integrated application as a cohesive system for workforce safety monitoring remains unexplored. While BIM provides rich 3D semantic information about the construction site, computer vision captures real-time field data. The system was tested using a realistic construction simulation, and the accuracy of the position estimate was evaluated in a real-world interior environment, yielding a mean error distance (MED) of 13.2 cm. Overall, the findings have substantial significance for the construction industry to help minimize accidents and enhance overall worker safety.]]></description>
@@ -40,7 +72,7 @@
 
   <item>
     <title><![CDATA[Model: Automated Structural Design of Shear Wall Residential Buildings using Generative Adversarial Networks]]></title>
-    <link>http://ruoxinx.github.io/open-construction-test/models/detail.html?id=structgan-v1</link>
+    <link>https://github.com/ruoxinx/open-construction/models/detail.html?id=structgan-v1</link>
     <guid isPermaLink="false">models:structgan-v1:2025-09-28</guid>
     <pubDate>Sun, 28 Sep 2025 00:00:00 GMT</pubDate>
     <description><![CDATA[Artificial intelligence is reshaping building design processes to be smarter and automated. Considering the increasingly wide application of shear wall systems in high-rise buildings and envisioning the massive benefit of automated structural design, this paper proposes a generative adversarial network (GAN)-based shear wall design method, which learns from existing shear wall design documents and then performs structural design intelligently and swiftly. To this end, structural design datasets were prepared via abstraction, semanticization, classification, and parameterization in terms of building height and seismic design category. The GAN model improved its shear wall design proficiency through adversarial training supported by data and hyper-parametric analytics. The performance of the trained GAN model was appraised against the metrics based on the confusion matrix and the intersection-over-union approach. Finally, case studies were conducted to evaluate the applicability, effectiveness, and appropriateness of the innovative GAN-based structural design method, indicating significant speed-up and comparable quality.Artificial intelligence is reshaping building design processes to be smarter and automated. Considering the increasingly wide application of shear wall systems in high-rise buildings and envisioning the massive benefit of automated structural design, this paper proposes a generative adversarial network (GAN)-based shear wall design method, which learns from existing shear wall design documents and then performs structural design intelligently and swiftly. To this end, structural design datasets were prepared via abstraction, semanticization, classification, and parameterization in terms of building height and seismic design category. The GAN model improved its shear wall design proficiency through adversarial training supported by data and hyper-parametric analytics. The performance of the trained GAN model was appraised against the metrics based on the confusion matrix and the intersection-over-union approach. Finally, case studies were conducted to evaluate the applicability, effectiveness, and appropriateness of the innovative GAN-based structural design method, indicating significant speed-up and comparable quality.]]></description>
@@ -48,42 +80,10 @@
 
   <item>
     <title><![CDATA[Model: Intelligent structural design of shear wall residence using physics-enhanced generative adversarial networks]]></title>
-    <link>http://ruoxinx.github.io/open-construction-test/models/detail.html?id=structgan-phy</link>
+    <link>https://github.com/ruoxinx/open-construction/models/detail.html?id=structgan-phy</link>
     <guid isPermaLink="false">models:structgan-phy:2025-09-28</guid>
     <pubDate>Sun, 28 Sep 2025 00:00:00 GMT</pubDate>
     <description><![CDATA[Intelligent structural design using generative adversarial networks (GANs) is a revolutionary design approach for building structures. Despite its far-reaching capability, the data quantity and quality may have limited the performance of such a data-driven network. This study proposes to enhance the objectiveness of training processes by innovatively introducing a surrogate model, Physics Estimator, that informs the generator by appraising the physical behavior of the generated design. Dual loss functions evaluated by a traditional data-driven discriminator and the Physics Estimator collaboratively foster the physics-enhanced GAN architecture. We further develop a structural mechanics model to train and optimize the inherent accuracy of the Physics Estimator. The comparative study suggests that the proposed physics-enhanced GAN can generate structural designs from architectural drawings and specified design conditions 44% better than a data-driven design method and 90 times faster than a competent engineer.]]></description>
-  </item>
-
-  <item>
-    <title><![CDATA[Model: Intelligent generative structural design method for shear wall building based on “fused-text-image-to-image” generative adversarial networks]]></title>
-    <link>http://ruoxinx.github.io/open-construction-test/models/detail.html?id=structgan-txt-txtimg2img</link>
-    <guid isPermaLink="false">models:structgan-txt-txtimg2img:2025-09-28</guid>
-    <pubDate>Sun, 28 Sep 2025 00:00:00 GMT</pubDate>
-    <description><![CDATA[Like the way engineers designing buildings, competent generative design methods try to understand the prescriptive requirement in text and architectural sketches, apply engineering principles and develop the structural design. However, this requirement may be challenging to existing methods because they are not good at simultaneously taking text and image input and then generating designs. This study proposed an innovative design approach, TxtImg2Img, to overcome the difficulties. Based on generative adversarial networks architecture, the generator is proposed to encode, extract and fuse texts and images, and generate new design images; the discriminator is developed to judge real and fake images and texts. Consequently, TxtImg2Img is advantageous in extracting features from the multimodal text and image data, fusing the features using the Hadamard product, and generating designs to satisfy the text-image requirements after learning from a limited number of design samples. Specifically, TxtImg2Img can generate structural design images without distortion, and the corresponding structural design meets the mechanical requirements, after being trained by dozens of words and hundreds of image data. The case studies confirm performance improvement of up to 21% and that the proposed approach presents a promising breakthrough for intelligent construction.]]></description>
-  </item>
-
-  <item>
-    <title><![CDATA[Dataset: UGD: Underground Garage Point Cloud Dataset]]></title>
-    <link>http://ruoxinx.github.io/open-construction-test/datasets/detail.html?id=UGD</link>
-    <guid isPermaLink="false">datasets:UGD:2025-09-27</guid>
-    <pubDate>Sat, 27 Sep 2025 00:00:00 GMT</pubDate>
-    <description><![CDATA[New dataset added to OpenConstruction.]]></description>
-  </item>
-
-  <item>
-    <title><![CDATA[Dataset: SORD Dataset: Synthetic On-site Rebar Data]]></title>
-    <link>http://ruoxinx.github.io/open-construction-test/datasets/detail.html?id=SORD</link>
-    <guid isPermaLink="false">datasets:SORD:2025-09-27</guid>
-    <pubDate>Sat, 27 Sep 2025 00:00:00 GMT</pubDate>
-    <description><![CDATA[New dataset added to OpenConstruction.]]></description>
-  </item>
-
-  <item>
-    <title><![CDATA[Dataset: Tower crane hook dataset]]></title>
-    <link>http://ruoxinx.github.io/open-construction-test/datasets/detail.html?id=hook</link>
-    <guid isPermaLink="false">datasets:hook:2025-09-27</guid>
-    <pubDate>Sat, 27 Sep 2025 00:00:00 GMT</pubDate>
-    <description><![CDATA[New dataset added to OpenConstruction.]]></description>
   </item>
   </channel>
 </rss>
