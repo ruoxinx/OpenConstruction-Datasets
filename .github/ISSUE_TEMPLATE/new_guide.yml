@@ -1,0 +1,30 @@
+name: "Add new Guide/Framework"
+description: "Propose a new open-practice guide for the Guides & Frameworks page"
+title: "[Guide] <Name of guide/framework>"
+labels: ["guide", "submission"]
+body:
+  - type: input
+    id: name
+    attributes: { label: "Guide name", placeholder: "e.g., FAIR Principles" }
+    validations: { required: true }
+  - type: input
+    id: url
+    attributes: { label: "Official URL", placeholder: "https://…" }
+    validations: { required: true }
+  - type: textarea
+    id: summary
+    attributes: { label: "1–3 sentence summary" }
+    validations: { required: true }
+  - type: checkboxes
+    id: scope
+    attributes:
+      label: "Scope"
+      options:
+        - label: Data
+        - label: Software
+        - label: Ethics/Governance
+        - label: Reproducibility
+        - label: Citation/DOI
+  - type: input
+    id: logo
+    attributes: { label: "Logo URL (optional)", placeholder: "PNG/SVG under 200 KB" }

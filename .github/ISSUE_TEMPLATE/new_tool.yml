@@ -1,0 +1,43 @@
+name: "Add new Tool"
+description: "Propose a new tool for the OpenConstruction Tools & Infrastructure page"
+title: "[Tool] <Name of tool>"
+labels: ["tool", "submission"]
+body:
+  - type: input
+    id: name
+    attributes: { label: "Tool name", placeholder: "e.g., LabelMe" }
+    validations: { required: true }
+  - type: input
+    id: url
+    attributes: { label: "Official URL", placeholder: "https://…" }
+    validations: { required: true }
+  - type: input
+    id: repo
+    attributes: { label: "GitHub / source repo (optional)", placeholder: "https://github.com/…" }
+  - type: dropdown
+    id: category
+    attributes:
+      label: "Category"
+      options: ["Annotation", "Dataset curation", "Versioning", "Storage/Publishing", "3D/Point cloud", "GIS/Raster", "Visualization"]
+    validations: { required: true }
+  - type: textarea
+    id: summary
+    attributes: { label: "What it does (1–2 sentences)" }
+    validations: { required: true }
+  - type: checkboxes
+    id: tags
+    attributes:
+      label: "Tags"
+      options:
+        - label: images
+        - label: video
+        - label: polygons
+        - label: boxes
+        - label: LiDAR
+        - label: SfM
+        - label: meshing
+        - label: evaluation
+        - label: DOI
+  - type: input
+    id: logo
+    attributes: { label: "Logo URL (optional)", placeholder: "PNG/SVG under 200 KB" }

@@ -1,0 +1,79 @@
+name: "🤖 New Model Submission"
+description: Submit a new model to the OpenConstruction Model Catalog
+title: "[Model] "
+labels: ["model"]
+
+body:
+  - type: input
+    id: name
+    attributes:
+      label: Model Name
+      placeholder: e.g., FM-Vision-Eval Transformer
+    validations:
+      required: true
+
+  - type: textarea
+    id: description
+    attributes:
+      label: Description
+      placeholder: Brief description of the model and intended tasks
+    validations:
+      required: true
+
+  - type: input
+    id: authors
+    attributes:
+      label: Authors
+      placeholder: 
+
+  - type: input
+    id: paper
+    attributes:
+      label: Related Paper
+      placeholder: e.g., paper title
+
+  - type: input
+    id: doi
+    attributes:
+      label: DOI
+      placeholder: 
+
+  - type: input
+    id: license
+    attributes:
+      label: License
+      placeholder: e.g., Apache 2.0
+
+  - type: input
+    id: url
+    attributes:
+      label: Model URL
+      placeholder: Link to code or pre-trained weights
+    validations:
+      required: true
+
+  - type: dropdown
+    id: tasks
+    attributes:
+      label: Supported Tasks
+      multiple: true
+      options:
+        - Classification
+        - Detection
+        - Segmentation
+        - Activity Recognition
+        - Generation
+        - NLP
+        - Other
+
+  - type: input
+    id: year
+    attributes:
+      label: Release Year
+      placeholder: e.g., 2025
+
+  - type: textarea
+    id: additional_information
+    attributes:
+      label: Additional Information
+      placeholder: 

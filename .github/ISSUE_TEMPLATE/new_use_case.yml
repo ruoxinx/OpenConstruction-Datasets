@@ -1,0 +1,240 @@
+name: "New Use Case"
+description: "Propose a real AI use case for the OpenConstruction Use-Case Catalog."
+title: "[Use Case] <concise title here>"
+labels:
+  - "use-case"
+  - "needs-review"
+assignees: []
+body:
+  - type: markdown
+    attributes:
+      value: |
+        Thanks for contributing to the OpenConstruction community!
+        Please provide enough detail so others can reproduce or learn from this use case.
+        **At least one credible source link is required** (case study / owner report / peer-reviewed paper / reputable vendor page).
+
+  # --- Core fields (map directly to data/use-cases.json) ---
+  - type: input
+    id: title
+    attributes:
+      label: "Use-Case Title"
+      placeholder: "Drone photogrammetry for earthwork validation"
+    validations:
+      required: true
+
+  - type: textarea
+    id: summary
+    attributes:
+      label: "One-paragraph Summary"
+      description: "What is the problem, the AI approach, and the business value?"
+      placeholder: "2–4 sentences describing the goal, method, and outcome."
+    validations:
+      required: true
+
+  - type: dropdown
+    id: phase
+    attributes:
+      label: "Construction Phase (primary)"
+      options:
+        - "Planning"
+        - "Design"
+        - "Preconstruction"
+        - "Construction"
+        - "Commissioning"
+        - "Operations/Maintenance"
+    validations:
+      required: true
+
+  - type: checkboxes
+    id: stakeholders
+    attributes:
+      label: "Stakeholders (select all that apply)"
+      options:
+        - label: "Contractor"
+        - label: "Owner"
+        - label: "Designer"
+        - label: "Engineer"
+        - label: "Trade"
+        - label: "Supplier"
+        - label: "Inspector"
+        - label: "Facility manager"
+    validations:
+      required: false
+
+  - type: checkboxes
+    id: ai_tech
+    attributes:
+      label: "AI Technology (select all that apply)"
+      options:
+        - label: "Computer Vision"
+        - label: "NLP"
+        - label: "Predictive Analytics"
+        - label: "Optimization"
+        - label: "Generative AI"
+        - label: "Reinforcement Learning"
+        - label: "ML Ops"
+    validations:
+      required: true
+
+  - type: checkboxes
+    id: data_modalities
+    attributes:
+      label: "Data Modalities (select all that apply)"
+      options:
+        - label: "Ground RGB"
+        - label: "Aerial RGB"
+        - label: "LiDAR"
+        - label: "RGB-D"
+        - label: "Thermal"
+        - label: "CAD/BIM"
+        - label: "Documents"
+        - label: "Time-series"
+        - label: "Point Cloud"
+        - label: "Synthetic"
+    validations:
+      required: false
+
+  - type: checkboxes
+    id: applications
+    attributes:
+      label: "Application Areas (select all that apply)"
+      options:
+        - label: "Progress Tracking"
+        - label: "Safety Monitoring"
+        - label: "Quality/Closeout"
+        - label: "Cost/Controls"
+        - label: "Scheduling"
+        - label: "Design Assistance"
+        - label: "Asset Inspection"
+        - label: "Earthwork/Survey"
+        - label: "Logistics"
+    validations:
+      required: true
+
+  - type: textarea
+    id: outcomes
+    attributes:
+      label: "Outcomes / Measured Impact"
+      description: "Prefer concrete metrics. One per line as 'Metric — Value — Note'."
+      placeholder: |
+        Takeoff cycle time — -60% — Compared to manual survey
+        Pay app preparation — -40% — Verified with site imagery
+    validations:
+      required: false
+
+  - type: dropdown
+    id: evidence_level
+    attributes:
+      label: "Evidence Level"
+      options:
+        - "Peer-reviewed"
+        - "Vendor case study"
+        - "Pilot"
+        - "Production at scale"
+    validations:
+      required: true
+
+  - type: input
+    id: provider
+    attributes:
+      label: "Provider / Platform (if applicable)"
+      placeholder: "OpenSpace, Buildots, Autodesk Construction Cloud"
+    validations:
+      required: false
+
+  - type: input
+    id: organizations
+    attributes:
+      label: "Organizations Involved (comma-separated)"
+      placeholder: "Suffolk, Skanska"
+    validations:
+      required: false
+
+  - type: input
+    id: geography
+    attributes:
+      label: "Geography / Region"
+      placeholder: "US; EU; APAC"
+    validations:
+      required: false
+
+  - type: input
+    id: year
+    attributes:
+      label: "Year"
+      placeholder: "2024"
+    validations:
+      required: true
+
+  - type: textarea
+    id: links
+    attributes:
+      label: "Links (sources / papers / code / DOI)"
+      description: |
+        Add one per line as "type: URL". Types supported: source, paper, code, doi.
+        **At least one credible 'source' link is required.**
+      placeholder: |
+        source: https://www.vendor.com/case-study/...
+        paper: https://doi.org/10.xxxx/xxxxx
+        code: https://github.com/org/repo
+        doi: 10.1145/xxxxxxx
+    validations:
+      required: true
+
+  - type: textarea
+    id: media
+    attributes:
+      label: "Media (optional)"
+      description: "One per line as 'image|video: URL — alt text'."
+      placeholder: |
+        image: https://... — Thermal anomaly map of roof
+        video: https://... — 30s walkthrough
+    validations:
+      required: false
+
+  - type: input
+    id: license
+    attributes:
+      label: "License (if applicable)"
+      placeholder: "CC BY 4.0; MIT; Apache-2.0"
+    validations:
+      required: false
+
+  - type: input
+    id: tags
+    attributes:
+      label: "Tags (comma-separated)"
+      placeholder: "360 capture, install verification"
+    validations:
+      required: false
+
+  - type: textarea
+    id: notes
+    attributes:
+      label: "Notes (optional)"
+      placeholder: "Context, deployment notes, caveats, or anonymization steps."
+    validations:
+      required: false
+
+  # --- Quality & compliance checks ---
+  - type: checkboxes
+    id: validations
+    attributes:
+      label: "Contributor Checklist"
+      options:
+        - label: "I confirm at least one credible source link is provided and publicly accessible."
+          required: true
+        - label: "The information respects privacy, consent, and anonymization best practices (no sensitive data)."
+          required: true
+        - label: "I agree that my submission may be edited for clarity/format and included under the site's terms."
+          required: true
+
+  # --- Maintainer section (collapsed) ---
+  - type: textarea
+    id: maintainer
+    attributes:
+      label: "Maintainer Notes (internal triage)"
+      description: "Maintainers can record mapping decisions to data/use-cases.json (will not auto-publish)."
+      placeholder: "Mapped evidence_level=Vendor case study; year=2024; tags normalized; source verified."
+    validations:
+      required: false
