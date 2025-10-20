@@ -2,13 +2,53 @@
 <rss version="2.0">
   <channel>
     <title>OpenConstruction — Updates</title>
-    <link>https://github.com/ruoxinx/open-construction/</link>
+    <link>https://www.openconstruction.org/</link>
     <description>Newest datasets and models from OpenConstruction</description>
     <language>en-US</language>
 
   <item>
+    <title><![CDATA[Dataset: ResBIM: Residential Unit BIM dataset]]></title>
+    <link>https://www.openconstruction.org/datasets/detail.html?id=ResBIM</link>
+    <guid isPermaLink="false">datasets:ResBIM:2025-10-20</guid>
+    <pubDate>Mon, 20 Oct 2025 00:00:00 GMT</pubDate>
+    <description><![CDATA[New dataset added to OpenConstruction.]]></description>
+  </item>
+
+  <item>
+    <title><![CDATA[Model: Fully automated synthetic BIM dataset generation using a deep learning-based framework]]></title>
+    <link>https://www.openconstruction.org/models.html</link>
+    <guid isPermaLink="false">models:ResBIM:2025-10-20</guid>
+    <pubDate>Mon, 20 Oct 2025 00:00:00 GMT</pubDate>
+    <description><![CDATA[Building information models (BIMs) are essential for efficient building operation, yet most existing buildings only have two-dimensional (2D) drawings, leading to increased interest in 2D-to-BIM reconstruction. To address the data scarcity hindering automated BIM reconstruction and evaluation, this paper presents a deep learning-based fully automated framework for BIM dataset generation. The approach uses image processing to define polygonal boundaries, applies neural networks to generate geometric layouts, and augments semantic information with predefined data for BIM generation via software application programming interfaces (APIs). The resulting Residential unit BIM (ResBIM) is a synthetic dataset comprising over 1000 paired BIMs (RVT format) and their corresponding 2D floor plans automatically annotated via a toolbox, filling a critical gap in BIM data availability. This work provides a scalable automated BIM reconstruction solution and establishes the foundation for future AI-driven BIM automation research.]]></description>
+  </item>
+
+  <item>
+    <title><![CDATA[Dataset: ConstScene Dataset]]></title>
+    <link>https://www.openconstruction.org/datasets/detail.html?id=ConstScene</link>
+    <guid isPermaLink="false">datasets:ConstScene:2025-10-18</guid>
+    <pubDate>Sat, 18 Oct 2025 00:00:00 GMT</pubDate>
+    <description><![CDATA[New dataset added to OpenConstruction.]]></description>
+  </item>
+
+  <item>
+    <title><![CDATA[Model: Transformer-based framework for mapping client requirements to BIM]]></title>
+    <link>https://www.openconstruction.org/models.html</link>
+    <guid isPermaLink="false">models:client-to-bim:2025-10-15</guid>
+    <pubDate>Wed, 15 Oct 2025 00:00:00 GMT</pubDate>
+    <description><![CDATA[Translating heterogeneous, client-authored textual requirements into constructible, information-rich models constitutes a primary impediment to digital transformation in early design phases. Legacy workflows demand high frequency client architect iteration, manual decoding of narrative requirements, and bespoke parametric modeling, introducing latency and inconsistency. This paper introduces an end-to-end automation pipeline that couples advanced Natural Language Processing (NLP) with Building Information Modeling (BIM) to dynamically interpret design intent from user inputs and instantiate corresponding BIM assemblies. A semantic translation layer maps parsed entities to a curated BIM model repository and propagates constraints into the authoring environment. On a multi project evaluation set the framework achieved 92 % mapping accuracy between client inputs and instantiated BIM elements. Embedding this capability enhances requirement traceability, clarifies intent for stakeholders, and enables scalable data driven design analytics. This contribution operationalizes AI assisted construction automation by unifying NLP and BIM within a single extensible workflow.]]></description>
+  </item>
+
+  <item>
+    <title><![CDATA[Dataset: Construction Scaffold Dataset]]></title>
+    <link>https://www.openconstruction.org/datasets/detail.html?id=Scaffold_removal</link>
+    <guid isPermaLink="false">datasets:Scaffold_removal:2025-10-12</guid>
+    <pubDate>Sun, 12 Oct 2025 00:00:00 GMT</pubDate>
+    <description><![CDATA[New dataset added to OpenConstruction.]]></description>
+  </item>
+
+  <item>
     <title><![CDATA[Dataset: GPR dataset: Ground Penetrating Radar]]></title>
-    <link>https://github.com/ruoxinx/open-construction/datasets/detail.html?id=GPR</link>
+    <link>https://www.openconstruction.org/datasets/detail.html?id=GPR</link>
     <guid isPermaLink="false">datasets:GPR:2025-10-5</guid>
     <pubDate>Sun, 05 Oct 2025 00:00:00 GMT</pubDate>
     <description><![CDATA[New dataset added to OpenConstruction.]]></description>
@@ -16,7 +56,7 @@
 
   <item>
     <title><![CDATA[Dataset: Proximity Monitoring for Human-Machine Collision Warning Dataset]]></title>
-    <link>https://github.com/ruoxinx/open-construction/datasets/detail.html?id=PM-HMCW</link>
+    <link>https://www.openconstruction.org/datasets/detail.html?id=PM-HMCW</link>
     <guid isPermaLink="false">datasets:PM-HMCW:2025-10-5</guid>
     <pubDate>Sun, 05 Oct 2025 00:00:00 GMT</pubDate>
     <description><![CDATA[New dataset added to OpenConstruction.]]></description>
@@ -24,7 +64,7 @@
 
   <item>
     <title><![CDATA[Model: ControlNet-based domain adaptation for synthetic construction images via graphical simulation and generative AI]]></title>
-    <link>https://github.com/ruoxinx/open-construction/models/detail.html?id=BCon</link>
+    <link>https://www.openconstruction.org/models.html</link>
     <guid isPermaLink="false">models:BCon:2025-10-5</guid>
     <pubDate>Sun, 05 Oct 2025 00:00:00 GMT</pubDate>
     <description><![CDATA[Data scarcity in construction hinders deep neural network training for computer vision applications. While synthetic data generators provide annotated images, they lack realism, creating a reality gap that leads to suboptimal real-world performance. This paper introduces BCon, a framework that integrates BlendCon, a construction data generation engine, with ControlNet, a generative architecture featuring conditioning controls, to enhance the realism and diversity of synthetic images while preserving annotations. Through hyperparameter tuning and post-processing, a dataset of 25,600 enhanced images is created. Quantitative evaluations demonstrate significant improvements in realism metrics: DreamSim (+9.5%), VIEScore (+114.3%), CLIPScore (+14.7%), and FID-5k (+22.6%), indicating closer alignment with real images. Moreover, YOLOv10 models trained on enhanced images achieve an AP50–95 of 0.66 on worker detection, outperforming those trained on original synthetic data by 7.9% and slightly surpassing models trained on equivalently sized real data. This framework offers cost-effective, high-quality dataset generation for visual AI applications in construction.]]></description>
@@ -32,7 +72,7 @@
 
   <item>
     <title><![CDATA[Dataset: Architectural–structural Design Pairs]]></title>
-    <link>https://github.com/ruoxinx/open-construction/datasets/detail.html?id=structgan</link>
+    <link>https://www.openconstruction.org/datasets/detail.html?id=structgan</link>
     <guid isPermaLink="false">datasets:structgan:2025-09-28</guid>
     <pubDate>Sun, 28 Sep 2025 00:00:00 GMT</pubDate>
     <description><![CDATA[New dataset added to OpenConstruction.]]></description>
@@ -40,50 +80,10 @@
 
   <item>
     <title><![CDATA[Dataset: MEP2BIM Dataset]]></title>
-    <link>https://github.com/ruoxinx/open-construction/datasets/detail.html?id=mep2bim</link>
+    <link>https://www.openconstruction.org/datasets/detail.html?id=mep2bim</link>
     <guid isPermaLink="false">datasets:mep2bim:2025-09-28</guid>
     <pubDate>Sun, 28 Sep 2025 00:00:00 GMT</pubDate>
     <description><![CDATA[New dataset added to OpenConstruction.]]></description>
-  </item>
-
-  <item>
-    <title><![CDATA[Dataset: BFA-3D dataset: Building façade attachments]]></title>
-    <link>https://github.com/ruoxinx/open-construction/datasets/detail.html?id=bfa-yolo-dataset</link>
-    <guid isPermaLink="false">datasets:bfa-yolo-dataset:2025-09-28</guid>
-    <pubDate>Sun, 28 Sep 2025 00:00:00 GMT</pubDate>
-    <description><![CDATA[New dataset added to OpenConstruction.]]></description>
-  </item>
-
-  <item>
-    <title><![CDATA[Dataset: MLSTRUCT-FP: Machine Learning STRUCTural Floor Plan Dataset]]></title>
-    <link>https://github.com/ruoxinx/open-construction/datasets/detail.html?id=mlstruct-fp</link>
-    <guid isPermaLink="false">datasets:mlstruct-fp:2025-09-28</guid>
-    <pubDate>Sun, 28 Sep 2025 00:00:00 GMT</pubDate>
-    <description><![CDATA[New dataset added to OpenConstruction.]]></description>
-  </item>
-
-  <item>
-    <title><![CDATA[Dataset: TBBR dataset: Thermal Bridges on Building Rooftops]]></title>
-    <link>https://github.com/ruoxinx/open-construction/datasets/detail.html?id=TBBR</link>
-    <guid isPermaLink="false">datasets:TBBR:2025-09-28</guid>
-    <pubDate>Sun, 28 Sep 2025 00:00:00 GMT</pubDate>
-    <description><![CDATA[New dataset added to OpenConstruction.]]></description>
-  </item>
-
-  <item>
-    <title><![CDATA[Dataset: PID dataset: Piping and Instrumentation Drawings]]></title>
-    <link>https://github.com/ruoxinx/open-construction/datasets/detail.html?id=PID</link>
-    <guid isPermaLink="false">datasets:PID:2025-09-28</guid>
-    <pubDate>Sun, 28 Sep 2025 00:00:00 GMT</pubDate>
-    <description><![CDATA[New dataset added to OpenConstruction.]]></description>
-  </item>
-
-  <item>
-    <title><![CDATA[Model: ETHcavation: A Dataset and Pipeline for Panoptic Scene Understanding and Object Tracking in Dynamic Construction Environments]]></title>
-    <link>https://github.com/ruoxinx/open-construction/models/detail.html?id=ETHcavation</link>
-    <guid isPermaLink="false">models:ETHcavation:2025-09-28</guid>
-    <pubDate>Sun, 28 Sep 2025 00:00:00 GMT</pubDate>
-    <description><![CDATA[Construction sites are challenging environments for autonomous systems due to their unstructured nature and the presence of dynamic actors, such as workers and machinery. This work presents a comprehensive panoptic scene understanding solution designed to handle the complexities of such environments by integrating 2D panoptic segmentation with 3D LiDAR mapping. Our system generates detailed environmental representations in real-time by combining semantic and geometric data, supported by Kalman Filter-based tracking for dynamic object detection. We introduce a fine-tuning method that adapts large pre-trained panoptic segmentation models for construction site applications using a limited number of domain-specific samples. For this use case, we release a first-of-its-kind dataset of 502 hand-labeled sample images with panoptic annotations from construction sites. In addition, we propose a dynamic panoptic mapping technique that enhances scene understanding in unstructured environments. As a case study, we demonstrate the system's application for autonomous navigation, utilizing real-time RRT* for reactive path planning in dynamic scenarios. The dataset and code for training and deployment are publicly available to support future research.]]></description>
   </item>
   </channel>
 </rss>
