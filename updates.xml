@@ -7,6 +7,54 @@
     <language>en-US</language>
 
   <item>
+    <title><![CDATA[Dataset: BMKG: Bridge Maintenance Knowledge Graph]]></title>
+    <link>https://www.openconstruction.org/datasets/detail.html?id=BMKG</link>
+    <guid isPermaLink="false">datasets:BMKG:2025-11-3</guid>
+    <pubDate>Mon, 03 Nov 2025 00:00:00 GMT</pubDate>
+    <description><![CDATA[New dataset added to OpenConstruction.]]></description>
+  </item>
+
+  <item>
+    <title><![CDATA[Model: Knowledge graph-driven bridge maintenance decision-making via integrating large language models and chain-of-thought reasoning]]></title>
+    <link>https://www.openconstruction.org/models.html</link>
+    <guid isPermaLink="false">models:BMKG-DCoT:2025-11-03</guid>
+    <pubDate>Mon, 03 Nov 2025 00:00:00 GMT</pubDate>
+    <description><![CDATA[Bridge maintenance knowledge graphs (BMKGs) contain rich historical records of defects and corresponding maintenance actions, yet few studies exploit this data to guide decisions for new defects. Traditional case-based reasoning (CBR) methods can surface similar historical cases but suffer from high retrieval costs and struggle with ambiguous scenarios. To address these limitations, this paper introduces BMKG-DCoT, which integrates large language models (LLMs) with chain-of-thought (CoT) reasoning to mimic maintenance expert decision workflows. BMKG-DCoT follows a three-phase iterative process—Inference-Planning (formulating reasoning steps and retrieval plans), Interaction-Decision (targeted data extraction from the BMKG), and Observation-Judgment (evaluating and refining inferences). On some standard and ambiguous maintenance queries, BMKG-DCoT achieves F1 scores of 0.9529 and 0.9130, respectively, outperforming baselines. Explainability analyses further confirm that its reasoning paths are transparent and interpretable, underscoring its promise as an AI-driven decision-support tool for bridge maintenance.]]></description>
+  </item>
+
+  <item>
+    <title><![CDATA[Model: Automatic segmentation of 3D point clouds of rubble masonry walls, and its application to building surveying, repair and maintenance]]></title>
+    <link>https://www.openconstruction.org/models.html</link>
+    <guid isPermaLink="false">models:masonry-cc:2025-11-2</guid>
+    <pubDate>Sun, 02 Nov 2025 00:00:00 GMT</pubDate>
+    <description><![CDATA[Changing climatic conditions are contributing to faster deterioration of building fabric. Increasing number of heavy rainfall events can particularly affect historic and Cultural Heritage (CH) buildings. These evolving and uncertain circumstances demand more frequent survey of building fabric to ensure satisfactory repair and maintenance. However, traditional fabric surveys have been shown to lack efficiency, accuracy and objectivity, hindering essential repair operations. The recent development of reality capture technologies, together with the development of algorithms to effectively process the acquired data, offers the promise of transformation of surveying methods. This paper presents an original algorithm for automatic segmentation of individual masonry units and mortar regions in digitised rubble stone constructions, using geometrical and colour data acquired by Terrestrial Laser Scanning (TLS) devices. The algorithm is based on the 2D Continuous Wavelet Transform (CWT), and uniquely it does not require the wall to be flat or plumb. This characteristic is important because historic structures, in particular, commonly present non-negligible levels of bow, waviness and out-of-verticality. The method is validated through experiments undertaken using data from two relevant and highly significant Scottish CH buildings. The value of such segmentation to building surveying and maintenance regimes is also further demonstrated with application in automated and accurate measurement of mortar recess and pinning. Overall, the results demonstrate the value of the automatic segmentation of masonry units towards more comprehensive and accurate surveys.]]></description>
+  </item>
+
+  <item>
+    <title><![CDATA[Model: 4-Plane congruent sets for automatic registration of as-is 3D point clouds with 3D BIM models]]></title>
+    <link>https://www.openconstruction.org/models.html</link>
+    <guid isPermaLink="false">models:4PlCS:2025-11-2</guid>
+    <pubDate>Sun, 02 Nov 2025 00:00:00 GMT</pubDate>
+    <description><![CDATA[Construction quality and progress control are demanding, yet critical construction activities. Building Information Models and as-built scanned data can be used in Scan-vs-BIM processes to effectively and comprehensively support these activities. This however requires accurate registration of scanned point clouds with 3D (BIM) models. Automating such registration remains a challenge in the context of the built environment, because as-built can be incomplete and/or contain data from non-model objects, and construction buildings and other structures often present symmetries and self-similarities that are very challenging to registration.  In this paper, we present a novel automatic coarse registration method that is an adaptation of the ‘4 Points Congruent Set’ algorithm to the use of planes; we call it the ‘4-Plane Congruent Set’ (4-PlCS) algorithm. The approach is further integrated in a software system that delivers not one but a ranked list of the most likely transformations, so to allow the user to quickly select the correct transformation, if need be. Two variants of the method are also considered, in particular one in the case when the vertical axis is known a priori; we call that method the 4.5-PlCS method. The proposed algorithm is tested using five different datasets, including three simulated and two real-life ones. The results show the effectiveness of the proposed method, where the correct transformation always ranks very high (in our experiments, first or second), and is extremely close to the ground-truth transformation. Experimental comparison of the proposed approach with a standard, more intuitive approach based on finding 3-plane congruent sets shows the discriminatory power of 4-plane bases over 3-plane bases, albeit at no clear benefits in terms of computational time. The experimental results for the 4.5-PlCS method show that it delivers a non-negligible reduction in computational time (approx. 20%), but at no additional benefit in terms of effectiveness in finding the correct transformation.]]></description>
+  </item>
+
+  <item>
+    <title><![CDATA[Model: Development of a Built Environment Ontology Lookup Service (BE-OLS) with a New Ontology Evaluation]]></title>
+    <link>https://www.openconstruction.org/models.html</link>
+    <guid isPermaLink="false">models:BE-OLS:2025-11-2</guid>
+    <pubDate>Sun, 02 Nov 2025 00:00:00 GMT</pubDate>
+    <description><![CDATA[Recent years have seen a surge in development of formal ontologies within the domain of built environment. Yet, experts like novices face difficulties in locating relevant ontologies, hampering the use of ontologies. Besides, these ontologies demonstrate a range of development maturity. This highlights a gap: the need for a continuously updated repository to help users in discovering, evaluating and (re)using ontologies. This paper presents the Ontology Lookup Service for the Built Environment: BE-OLS, which allows to easily find and consult existing ontologies. It also enables researchers to find gaps or redundancies to help bring some order to the current state of the field.]]></description>
+  </item>
+
+  <item>
+    <title><![CDATA[Model: Evaluating confidence in geometric matching between 3D point clouds and BIM models by integrating coverage, distance, and distribution metrics]]></title>
+    <link>https://www.openconstruction.org/models.html</link>
+    <guid isPermaLink="false">models:pcd-bim-matching-confidence:2025-11-2</guid>
+    <pubDate>Sun, 02 Nov 2025 00:00:00 GMT</pubDate>
+    <description><![CDATA[Accurate and objective assessment of the matching of a Building Information Model (BIM) with 3D point cloud data (PCD) is critical to Scan-to-BIM and Scan-vs-BIM workflows. However, existing methods for PCD-BIM matching evaluation do not fully and robustly account for geometric accuracy and spatial completeness. This paper introduces a statistically-grounded method that combines three indices that complementarily assess matching Coverage, Distribution, and Distance. The proposed method also accounts for inter-element occlusions when calculating each element’s theoretically visible surface, which increases the metrics’ reliability. Validation is conducted across 46 PCD-BIM pairs, encompassing 4000+ elements from ISPRS, CV4AEC, BIMNET and custom datasets, as well as a residential building case study comparing manual and automated BIM model reconstructions, and demonstrating the applicability of the method to any type of element. Results show practical value for both Scan-to-BIM and Scan-vs-BIM practice and enable quantitative assessment of benchmark dataset quality via the proposed indices.]]></description>
+  </item>
+
+  <item>
     <title><![CDATA[Dataset: ResBIM: Residential Unit BIM dataset]]></title>
     <link>https://www.openconstruction.org/datasets/detail.html?id=ResBIM</link>
     <guid isPermaLink="false">datasets:ResBIM:2025-10-20</guid>
@@ -36,54 +84,6 @@
     <guid isPermaLink="false">models:client-to-bim:2025-10-15</guid>
     <pubDate>Wed, 15 Oct 2025 00:00:00 GMT</pubDate>
     <description><![CDATA[Translating heterogeneous, client-authored textual requirements into constructible, information-rich models constitutes a primary impediment to digital transformation in early design phases. Legacy workflows demand high frequency client architect iteration, manual decoding of narrative requirements, and bespoke parametric modeling, introducing latency and inconsistency. This paper introduces an end-to-end automation pipeline that couples advanced Natural Language Processing (NLP) with Building Information Modeling (BIM) to dynamically interpret design intent from user inputs and instantiate corresponding BIM assemblies. A semantic translation layer maps parsed entities to a curated BIM model repository and propagates constraints into the authoring environment. On a multi project evaluation set the framework achieved 92 % mapping accuracy between client inputs and instantiated BIM elements. Embedding this capability enhances requirement traceability, clarifies intent for stakeholders, and enables scalable data driven design analytics. This contribution operationalizes AI assisted construction automation by unifying NLP and BIM within a single extensible workflow.]]></description>
-  </item>
-
-  <item>
-    <title><![CDATA[Dataset: Construction Scaffold Dataset]]></title>
-    <link>https://www.openconstruction.org/datasets/detail.html?id=Scaffold_removal</link>
-    <guid isPermaLink="false">datasets:Scaffold_removal:2025-10-12</guid>
-    <pubDate>Sun, 12 Oct 2025 00:00:00 GMT</pubDate>
-    <description><![CDATA[New dataset added to OpenConstruction.]]></description>
-  </item>
-
-  <item>
-    <title><![CDATA[Dataset: GPR dataset: Ground Penetrating Radar]]></title>
-    <link>https://www.openconstruction.org/datasets/detail.html?id=GPR</link>
-    <guid isPermaLink="false">datasets:GPR:2025-10-5</guid>
-    <pubDate>Sun, 05 Oct 2025 00:00:00 GMT</pubDate>
-    <description><![CDATA[New dataset added to OpenConstruction.]]></description>
-  </item>
-
-  <item>
-    <title><![CDATA[Dataset: Proximity Monitoring for Human-Machine Collision Warning Dataset]]></title>
-    <link>https://www.openconstruction.org/datasets/detail.html?id=PM-HMCW</link>
-    <guid isPermaLink="false">datasets:PM-HMCW:2025-10-5</guid>
-    <pubDate>Sun, 05 Oct 2025 00:00:00 GMT</pubDate>
-    <description><![CDATA[New dataset added to OpenConstruction.]]></description>
-  </item>
-
-  <item>
-    <title><![CDATA[Model: ControlNet-based domain adaptation for synthetic construction images via graphical simulation and generative AI]]></title>
-    <link>https://www.openconstruction.org/models.html</link>
-    <guid isPermaLink="false">models:BCon:2025-10-5</guid>
-    <pubDate>Sun, 05 Oct 2025 00:00:00 GMT</pubDate>
-    <description><![CDATA[Data scarcity in construction hinders deep neural network training for computer vision applications. While synthetic data generators provide annotated images, they lack realism, creating a reality gap that leads to suboptimal real-world performance. This paper introduces BCon, a framework that integrates BlendCon, a construction data generation engine, with ControlNet, a generative architecture featuring conditioning controls, to enhance the realism and diversity of synthetic images while preserving annotations. Through hyperparameter tuning and post-processing, a dataset of 25,600 enhanced images is created. Quantitative evaluations demonstrate significant improvements in realism metrics: DreamSim (+9.5%), VIEScore (+114.3%), CLIPScore (+14.7%), and FID-5k (+22.6%), indicating closer alignment with real images. Moreover, YOLOv10 models trained on enhanced images achieve an AP50–95 of 0.66 on worker detection, outperforming those trained on original synthetic data by 7.9% and slightly surpassing models trained on equivalently sized real data. This framework offers cost-effective, high-quality dataset generation for visual AI applications in construction.]]></description>
-  </item>
-
-  <item>
-    <title><![CDATA[Dataset: Architectural–structural Design Pairs]]></title>
-    <link>https://www.openconstruction.org/datasets/detail.html?id=structgan</link>
-    <guid isPermaLink="false">datasets:structgan:2025-09-28</guid>
-    <pubDate>Sun, 28 Sep 2025 00:00:00 GMT</pubDate>
-    <description><![CDATA[New dataset added to OpenConstruction.]]></description>
-  </item>
-
-  <item>
-    <title><![CDATA[Dataset: MEP2BIM Dataset]]></title>
-    <link>https://www.openconstruction.org/datasets/detail.html?id=mep2bim</link>
-    <guid isPermaLink="false">datasets:mep2bim:2025-09-28</guid>
-    <pubDate>Sun, 28 Sep 2025 00:00:00 GMT</pubDate>
-    <description><![CDATA[New dataset added to OpenConstruction.]]></description>
   </item>
   </channel>
 </rss>
