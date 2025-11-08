@@ -1,20 +1,150 @@
-title:                                # (Required) Full course or resource title
-authors:                             # (Required) Author(s) or institution providing the resource
-year:                                 # (Optional) Year of publication or release
-source:                               # (Required) URL link to the main resource page or repository
+name: "Add OER Entry"
+description: "Submit a new Open Educational Resource (OER) for the OpenConstruction catalog."
+title: "OER: <Resource Title>"
+labels:
+  - "oer"
+  - "submission"
+assignees: []
 
-language:                             # (Required) List of languages (use ISO names)
-  -                                   
-topics:                               # (Required) List of topics, e.g., ["Construction Estimating", "Project Management"]
-  -                                   
-license:                              # (Required) License type, e.g., "CC BY 4.0", "CC BY-NC-SA 4.0"
-media:                                # (Required) Content formats, e.g., ["Text/HTML", "Video", "Slides", "PDF"]
-  -                                   
+body:
+  - type: markdown
+    attributes:
+      value: |
+        Thanks for contributing an Open Educational Resource!  
+        **Note:** OpenConstruction indexes metadata and links only. No raw data or paywalled content is hosted.
 
-# ------------------------------------------------------------
-# Optional fields (recommended)
-# ------------------------------------------------------------
-description:                          # (Optional) 1–3 sentence summary of the resource
-image:                                # (Optional) Cover or preview image URL
-contributor:                          # (Optional) GitHub username or name of contributor submitting
-contributor_url:                      # (Optional) Link to GitHub or personal website
+
+  - type: input
+    id: title
+    attributes:
+      label: Title
+      description: Full course/resource title.
+      placeholder: e.g., Building Construction and Materials: An Open Educational Resource Textbook
+    validations:
+      required: true
+
+  - type: input
+    id: authors
+    attributes:
+      label: Author(s) / Institution
+      placeholder: e.g., Leslie Forehand
+    validations:
+      required: true
+
+  - type: input
+    id: source
+    attributes:
+      label: Source URL
+      description: Public landing page for the resource.
+      placeholder: https://example.org/resource
+    validations:
+      required: true
+
+  - type: dropdown
+    id: language
+    attributes:
+      label: Language(s)
+      description: Select one or more languages.
+      multiple: true
+      options:
+        - English
+        - Spanish
+        - Chinese
+        - French
+        - German
+        - Other
+    validations:
+      required: true
+
+  - type: textarea
+    id: topics
+    attributes:
+      label: Topics
+      description: Comma- or line-separated list of topics (e.g., "Materials in Architecture", "Project Management").
+      placeholder: |
+        Materials in Architecture
+        Construction Estimating
+        Project Scheduling
+    validations:
+      required: true
+
+  - type: dropdown
+    id: license
+    attributes:
+      label: License
+      description: Select the most accurate license.
+      options:
+        - CC BY 4.0
+        - CC BY-SA 4.0
+        - CC BY-NC 4.0
+        - CC BY-NC-SA 4.0
+        - CC0
+        - Other (specify in Notes)
+    validations:
+      required: true
+
+  - type: dropdown
+    id: media
+    attributes:
+      label: Media / Format
+      description: Select all that apply.
+      multiple: true
+      options:
+        - Text/HTML
+        - Video
+        - Slides
+        - Interactive Lab
+        - Audio
+        - Code
+    validations:
+      required: true
+
+  - type: input
+    id: year
+    attributes:
+      label: Year (optional)
+      placeholder: e.g., 2024
+
+  - type: input
+    id: image
+    attributes:
+      label: Cover Image URL (optional)
+      placeholder: https://example.org/cover.png
+
+  - type: textarea
+    id: description
+    attributes:
+      label: Short Description (optional)
+      placeholder: 1–3 sentence summary of the resource.
+
+  - type: input
+    id: contributor
+    attributes:
+      label: Contributor (optional)
+      description: Your GitHub handle or name.
+      placeholder: e.g., ruoxinx
+
+  - type: input
+    id: contributor_url
+    attributes:
+      label: Contributor URL (optional)
+      description: Link to your GitHub profile or website.
+      placeholder: https://github.com/your-handle
+
+  - type: checkboxes
+    id: confirmations
+    attributes:
+      label: Confirmations
+      options:
+        - label: I confirm this submission links to a publicly accessible page (no paywall required).
+          required: true
+        - label: I confirm this submission is metadata only and does not include raw data or hosted files.
+          required: true
+        - label: I have verified the URL(s) above work at the time of submission.
+          required: true
+
+  - type: textarea
+    id: notes
+    attributes:
+      label: Notes for Maintainers (optional)
+      description: Add clarifications (e.g., custom license text, special topics, alternate links).
