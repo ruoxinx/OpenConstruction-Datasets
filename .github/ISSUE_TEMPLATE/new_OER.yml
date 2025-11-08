@@ -19,7 +19,7 @@ body:
     attributes:
       label: Title
       description: Full course/resource title.
-      placeholder: e.g., Building Construction and Materials: An Open Educational Resource Textbook
+      placeholder: "Building Construction and Materials: An Open Educational Resource Textbook"
     validations:
       required: true
 
