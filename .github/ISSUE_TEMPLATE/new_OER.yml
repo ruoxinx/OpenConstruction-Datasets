@@ -1,0 +1,20 @@
+title:                                # (Required) Full course or resource title
+authors:                             # (Required) Author(s) or institution providing the resource
+year:                                 # (Optional) Year of publication or release
+source:                               # (Required) URL link to the main resource page or repository
+
+language:                             # (Required) List of languages (use ISO names)
+  -                                   
+topics:                               # (Required) List of topics, e.g., ["Construction Estimating", "Project Management"]
+  -                                   
+license:                              # (Required) License type, e.g., "CC BY 4.0", "CC BY-NC-SA 4.0"
+media:                                # (Required) Content formats, e.g., ["Text/HTML", "Video", "Slides", "PDF"]
+  -                                   
+
+# ------------------------------------------------------------
+# Optional fields (recommended)
+# ------------------------------------------------------------
+description:                          # (Optional) 1–3 sentence summary of the resource
+image:                                # (Optional) Cover or preview image URL
+contributor:                          # (Optional) GitHub username or name of contributor submitting
+contributor_url:                      # (Optional) Link to GitHub or personal website
