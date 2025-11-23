@@ -7,83 +7,83 @@
     <language>en-US</language>
 
   <item>
-    <title><![CDATA[Model: TLSynth: A Novel Blender Add-On for Real-Time Point Cloud Generation from 3D Models]]></title>
+    <title><![CDATA[Dataset: Fire-ART: Firefighting asset recognition dataset]]></title>
+    <link>https://www.openconstruction.org/datasets/detail.html?id=Fire-ART</link>
+    <guid isPermaLink="false">datasets:Fire-ART:2025-11-22</guid>
+    <pubDate>Sat, 22 Nov 2025 00:00:00 GMT</pubDate>
+    <description><![CDATA[New dataset added to OpenConstruction.]]></description>
+  </item>
+
+  <item>
+    <title><![CDATA[Dataset: VTT-ConIoT: IMU Dataset for Activity Recognition of Construction Workers]]></title>
+    <link>https://www.openconstruction.org/datasets/detail.html?id=vtt-coniot</link>
+    <guid isPermaLink="false">datasets:vtt-coniot:2025-11-18</guid>
+    <pubDate>Tue, 18 Nov 2025 00:00:00 GMT</pubDate>
+    <description><![CDATA[New dataset added to OpenConstruction.]]></description>
+  </item>
+
+  <item>
+    <title><![CDATA[Dataset: Dataset for generation of LOD4 models for buildings]]></title>
+    <link>https://www.openconstruction.org/datasets/detail.html?id=LOD4-Building-Image-Modeling</link>
+    <guid isPermaLink="false">datasets:LOD4-Building-Image-Modeling:2025-11-17</guid>
+    <pubDate>Mon, 17 Nov 2025 00:00:00 GMT</pubDate>
+    <description><![CDATA[New dataset added to OpenConstruction.]]></description>
+  </item>
+
+  <item>
+    <title><![CDATA[Model: Automated image-based generation of finite element models for masonry buildings]]></title>
     <link>https://www.openconstruction.org/models.html</link>
-    <guid isPermaLink="false">models:TLSynth:2025-11-11</guid>
-    <pubDate>Tue, 11 Nov 2025 00:00:00 GMT</pubDate>
-    <description><![CDATA[Point clouds are a crucial element in the process of scanning and reconstructing 3D environments, such as buildings or heritage sites. They allow for the creation of 3D models that can be used in a wide range of applications. In some cases, however, only the 3D model of an environment is available, and it is necessary to obtain point clouds with the same characteristics as those captured by a laser scanner. For instance, point clouds may be required for surveys, performance optimization, site scan planning, or validation of point cloud processing algorithms. This paper presents a new terrestrial laser scanner (TLS) simulator, designed as a Blender add-on, that produces synthetic point clouds from 3D models in real time. The simulator allows users to adjust a set of parameters to replicate real-world scanning conditions, such as noise generation, ensuring the synthetic point clouds closely mirror those produced by actual laser scanners. The target meshes may be derived from either a real-world scan or 3D designs created using design software. By replicating the spatial distributions and attributes of real laser scanner outputs and supporting real-time generation, the simulator serves as a valuable tool for scan planning and the development of synthetic point cloud repositories, advancing research and practical applications in 3D computer vision.]]></description>
+    <guid isPermaLink="false">models:FEM_buildings:2025-11-17</guid>
+    <pubDate>Mon, 17 Nov 2025 00:00:00 GMT</pubDate>
+    <description><![CDATA[To predict the response of masonry buildings to various types of loads, engineers use finite element models, specifically solid-element and macro-element models. For predicting masonry responses to seismic events in particular, equivalent frame models—a subcategory of macro-element models—are a common choice because of their low computational cost. However, an existing bottleneck in modeling pipelines is generating the geometry of the model, which is currently a slow and laborious process that is done manually using computer-aided design tools. In this paper, we address this by automating the modelling process using recent advancements in computer vision and machine learning. We present an image-based end-to-end pipeline that automatically generates finite element meshes for solid-element and equivalent-frame models of the outer walls of free-standing historical masonry buildings. As the input, our framework requires RGB images of the buildings that are processed using structure-from-motion algorithms, which create 3D geometries, and convolutional neural networks, which segment the openings and their corners. These layers are then combined to generate level of detail models. We tested our pipeline on structures with irregular surface geometries and opening layouts. While generating the solid element mesh from the level of detail model is straightforward, generating equivalent frame models required algorithms for segmenting the façade and the meshing. Experts in the field analyzed the generated equivalent frame models and determined them to be useful for numerical modeling. These finite element geometries will be invaluable for future predictions of the seismic response of damaged and undamaged buildings. The codes and dataset are publicly available for future studies and benchmarking (https://github.com/eesd-epfl/FEM_buildings and https://doi.org/10.5281/zenodo.8094306).]]></description>
   </item>
 
   <item>
-    <title><![CDATA[Dataset: CODE-ACCORD: Automated Compliance Checks for Construction, Renovation or Demolition Works (ACCORD)]]></title>
-    <link>https://www.openconstruction.org/datasets/detail.html?id=code-accord</link>
-    <guid isPermaLink="false">datasets:code-accord:2025-11-10</guid>
-    <pubDate>Mon, 10 Nov 2025 00:00:00 GMT</pubDate>
-    <description><![CDATA[New dataset added to OpenConstruction.]]></description>
-  </item>
-
-  <item>
-    <title><![CDATA[Dataset: CubiCasa5K: A Dataset and an Improved Multi-Task Model for Floorplan Image Analysis]]></title>
-    <link>https://www.openconstruction.org/datasets/detail.html?id=cubicasa5k</link>
-    <guid isPermaLink="false">datasets:cubicasa5k:2025-11-10</guid>
-    <pubDate>Mon, 10 Nov 2025 00:00:00 GMT</pubDate>
-    <description><![CDATA[New dataset added to OpenConstruction.]]></description>
-  </item>
-
-  <item>
-    <title><![CDATA[Dataset: Concrete crack dataset for beam and column]]></title>
-    <link>https://www.openconstruction.org/datasets/detail.html?id=concrete-crack-lab</link>
-    <guid isPermaLink="false">datasets:concrete-crack-lab:2025-11-7</guid>
-    <pubDate>Fri, 07 Nov 2025 00:00:00 GMT</pubDate>
-    <description><![CDATA[New dataset added to OpenConstruction.]]></description>
-  </item>
-
-  <item>
-    <title><![CDATA[Dataset: BIMNet: Dataset and benchmark for as-built BIM reconstruction from real-world point cloud]]></title>
-    <link>https://www.openconstruction.org/datasets/detail.html?id=BIMNet</link>
-    <guid isPermaLink="false">datasets:BIMNet:2025-11-6</guid>
-    <pubDate>Thu, 06 Nov 2025 00:00:00 GMT</pubDate>
-    <description><![CDATA[New dataset added to OpenConstruction.]]></description>
-  </item>
-
-  <item>
-    <title><![CDATA[Dataset: Point Cloud Dataset for Piping Systems]]></title>
-    <link>https://www.openconstruction.org/datasets/detail.html?id=BIM_updating</link>
-    <guid isPermaLink="false">datasets:BIM_updating:2025-11-4</guid>
-    <pubDate>Tue, 04 Nov 2025 00:00:00 GMT</pubDate>
-    <description><![CDATA[New dataset added to OpenConstruction.]]></description>
-  </item>
-
-  <item>
-    <title><![CDATA[Dataset: Pictor-v3]]></title>
-    <link>https://www.openconstruction.org/datasets/detail.html?id=pictor-ppe</link>
-    <guid isPermaLink="false">datasets:pictor-ppe:2025-11-4</guid>
-    <pubDate>Tue, 04 Nov 2025 00:00:00 GMT</pubDate>
-    <description><![CDATA[New dataset added to OpenConstruction.]]></description>
-  </item>
-
-  <item>
-    <title><![CDATA[Dataset: DoriaNET: A visual dataset for post-disaster building damage assessment]]></title>
-    <link>https://www.openconstruction.org/datasets/detail.html?id=DoriaNET</link>
-    <guid isPermaLink="false">datasets:DoriaNET:2025-11-4</guid>
-    <pubDate>Tue, 04 Nov 2025 00:00:00 GMT</pubDate>
-    <description><![CDATA[New dataset added to OpenConstruction.]]></description>
-  </item>
-
-  <item>
-    <title><![CDATA[Model: Semi-automated localised updating for as-built BIM of piping systems using point cloud data]]></title>
+    <title><![CDATA[Model: Image-based geometric digital twinning for stone masonry elements]]></title>
     <link>https://www.openconstruction.org/models.html</link>
-    <guid isPermaLink="false">models:BIM_updating:2025-11-4</guid>
-    <pubDate>Tue, 04 Nov 2025 00:00:00 GMT</pubDate>
-    <description><![CDATA[As-designed building information models (BIM) often diverge from as-built conditions, limiting their reliability during the operation and maintenance (O&M). Current research focuses on change detection but lacks a systematic workflow for reliable updates, especially for piping systems with frequent changes and complex geometries. The paper addresses how to establish a semi-automated, end-to-end workflow for localised updating as-designed BIM of piping systems from point cloud data. The workflow applies PointNet++ for segmentation, followed by iterative closest point, random sample consensus, and region-growing for geometry extraction. The proposed BIM updating taxonomy and dedicated pre-judgment updating requirements (PUR) and spatial and topological relationships up-dating (STRU) algorithms identify update requirements and automate parametric updates. Validation through case studies demonstrates the workflow's ability to accurately perform localised updates, reducing the manual workload by approximately 70 %. This practical, scalable solution strengthens O&M by maintaining accurate as-built models and inspires future automated BIM updating research.]]></description>
+    <guid isPermaLink="false">models:stone_masonry_GDT:2025-11-17</guid>
+    <pubDate>Mon, 17 Nov 2025 00:00:00 GMT</pubDate>
+    <description><![CDATA[We present an image-based pipeline for generating geometrical digital twins (GDTs) of stone masonry elements with detail down to the stone level. For this purpose, we acquire RGB images of the individual stones and of the wall during the construction phase. In our framework, we use structure from motion (SfM) to first generate 3D source and destination models, which are then registered to form the GDT through non-linear least squares and 2D point feature correspondences detected on the SfM images. This method contrasts with traditional techniques that register point clouds using 3D point descriptors. Because of the robustness of image feature descriptors, we found that using 2D instead of 3D point features facilitates the automation of the GDT generation. To benchmark our algorithm, we compared the results through an Euclidean–distance-based proposed metric with a known 3D textured model from which images were synthetically generated. We show the robustness and feasibility of our method for full size elements, wherein GDTs were generated for dry-stone and stone-mortar systems. This study allows researchers to produce accurate representations of the 3D geometry of walls built for experimental research, reducing therefore uncertainties related to the stone size, shape and arrangement to a minimum when comparing 3D numerical simulations of these walls to experimental results. Codes and data sets are publicly available (https://github.com/eesd-epfl/stone_masonry_GDT and https://doi.org/10.5281/zenodo.7266587).]]></description>
   </item>
 
   <item>
-    <title><![CDATA[Model: Deep learning for post-hurricane aerial damage assessment of buildings]]></title>
+    <title><![CDATA[Dataset: Dataset for continuity-preserving crack detection]]></title>
+    <link>https://www.openconstruction.org/datasets/detail.html?id=TOPO-Loss-Crack</link>
+    <guid isPermaLink="false">datasets:TOPO-Loss-Crack:2025-11-16</guid>
+    <pubDate>Sun, 16 Nov 2025 00:00:00 GMT</pubDate>
+    <description><![CDATA[New dataset added to OpenConstruction.]]></description>
+  </item>
+
+  <item>
+    <title><![CDATA[Model: TOPO-Loss for continuity-preserving crack detection using deep learning]]></title>
     <link>https://www.openconstruction.org/models.html</link>
-    <guid isPermaLink="false">models:DoriaNET:2025-11-4</guid>
-    <pubDate>Tue, 04 Nov 2025 00:00:00 GMT</pubDate>
-    <description><![CDATA[This study aims to improve post-disaster preliminary damage assessment (PDA) using artificial intelligence (AI) and unmanned aerial vehicle (UAV) imagery. In particular, a stacked convolutional neural network (CNN) architecture is introduced and trained on an in-house visual dataset from Hurricane Dorian. To account for the ordinality of damage level classes, the cross-entropy classification loss function is replaced with the square of earth mover's distance (EMD2) loss. The trained model achieves 65.6% building localization precision and 61% (90% considering ±1 class deviation from ground-truth) classification accuracy. It also exhibits a positive accuracy–confidence correlation, which is valuable for model assessment in situations where ground-truth information is not readily available. Finally, the outcome of damage assessment is compared with the literature by examining the relationship between building size and number of stories, and severity of induced disaster damage.]]></description>
+    <guid isPermaLink="false">models:topo_crack_detection:2025-11-16</guid>
+    <pubDate>Sun, 16 Nov 2025 00:00:00 GMT</pubDate>
+    <description><![CDATA[We present a method for segmenting cracks in images of masonry buildings damaged by earthquakes. Existing methods of crack detection fail to preserve the continuity of cracks, and their performance deteriorates with imprecise training labels. We address these problems by adapting an approach previously proposed for reconstructing roads in aerial images, in which a Convolutional Neural Network is trained with a loss function specifically designed to encourage the continuity of thin structures and to accommodate imprecise annotations. We evaluate combinations of three loss functions (the Mean Squared Error, the Dice loss and the new connectivity-oriented loss) on two datasets using TernausNet, a deep network shown to attain state-of-the-art accuracy in crack detection. We herein show that combining these three losses significantly improves the topology of the predictions quantitatively and qualitatively. We also propose a new continuity metric, named Cracks Per Patch (CPP), and share a new dataset of images of earthquake-affected urban scenes accompanied by crack annotations. The dataset and implementations are publicly available for future studies and benchmarking (https://github.com/eesd-epfl/topo_crack_detection and https://doi.org/10.5281/zenodo.6769028).]]></description>
+  </item>
+
+  <item>
+    <title><![CDATA[Model: Determining crack kinematics from imaged crack patterns]]></title>
+    <link>https://www.openconstruction.org/models.html</link>
+    <guid isPermaLink="false">models:crack_kinematics:2025-11-15</guid>
+    <pubDate>Sat, 15 Nov 2025 00:00:00 GMT</pubDate>
+    <description><![CDATA[Determining the relationship between the cause of damage and the subsequent structural behavior of infrastructure systems requires an accurate characterization of the propagation of cracks, which represents the evolution of the damage state. When no information about the cause of damage is available, kinematic approaches can be used to describe the motion of crack contours. Current image-based approaches to derive crack kinematics use digital image correlation (DIC) on a set of sequential images as the crack propagates. However, DIC is invasive in that the structure surfaces must be painted with random speckle patterns, limiting its use primarily to controlled experiments. In this paper, we propose a novel image-based methodology for computing crack opening in Mode I or Mode II. As an input, this method takes a binary image from a semantic segmentation of an image of a crack pattern. This binary image is used to detect the opposite edges along the crack, which are then registered using an optimization algorithm based on the Euclidean transformation model and non-linear least squares. As a final output, this method produces displacement maps in the tangential and normal directions to the crack skeleton. To demonstrate its performance, we validate our methodology first with synthetic crack patterns and then with real crack patterns. Because this methodology for determining crack openings requires only simple data (just a binary crack pattern image), it is straightforward, robust, and adaptable, thus contributing to the development of structural image-based damage assessments. The computational codes and datasets are available to the public for future research and benchmarking on]]></description>
+  </item>
+
+  <item>
+    <title><![CDATA[Model: Damage-augmented digital twins towards the automated inspection of buildings]]></title>
+    <link>https://www.openconstruction.org/models.html</link>
+    <guid isPermaLink="false">models:dadt-buildings-model:2025-11-14</guid>
+    <pubDate>Fri, 14 Nov 2025 00:00:00 GMT</pubDate>
+    <description><![CDATA[Current procedures for the rapid inspection of buildings and infrastructure are subjective, time-consuming, and cumbersome to document, necessitating new technologies to automate the process and eliminate these shortcomings. Fortunately, recent developments in imaging devices and artificial intelligence, such as computer vision, provide the necessary tools for this, though they are not yet integrated into infrastructure applications. In this paper, we propose an end-to-end pipeline that generates damage-augmented digital twins for buildings at LOD3, including geometrical information as well as data pertaining to damage condition and its characterization. Our framework incorporates multiple-view images to (1) create a level of detail model, (2) segment damage information, and (3) characterize damage. The core of the method is the structure from motion, which is used to reconstruct the building scene, and machine-learning models that segment and characterize damage. In contrast to current practices, our method does not require manual intervention, generates lightweight models, and can be applied to a wide range of assets. The results generated with our pipeline represent a significant step towards an automated infrastructure damage assessment. We intend to expand our work in the future to include real-time applications and applications to other types of infrastructure. Codes and data sets are publicly available (https://github.com/eesd-epfl/DADT_buildings and https://doi.org/10.5281/zenodo.7767478).]]></description>
+  </item>
+
+  <item>
+    <title><![CDATA[Dataset: Dataset for generating LOD3 building models from SfM and semantic segmentation]]></title>
+    <link>https://www.openconstruction.org/datasets/detail.html?id=Opening-Segmentation</link>
+    <guid isPermaLink="false">datasets:Opening-Segmentation:2025-11-13</guid>
+    <pubDate>Thu, 13 Nov 2025 00:00:00 GMT</pubDate>
+    <description><![CDATA[New dataset added to OpenConstruction.]]></description>
   </item>
   </channel>
 </rss>
