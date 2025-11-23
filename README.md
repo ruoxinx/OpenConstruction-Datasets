@@ -24,8 +24,7 @@
 
 ## 📋 Overview  
 
-**OpenConstruction** dataset catalog is a curated collection of open-access datasets for construction monitoring and analysis.  
-It provides a centralized resource for researchers, practitioners, and developers working on AI applications in the construction industry.  
+**OpenConstruction** dataset catalog is a curated collection of open-access datasets for construction monitoring and analysis. It provides a centralized resource for researchers, practitioners, and developers working on AI applications in the construction industry.  
 
 
 ## 🎯 Motivation  
