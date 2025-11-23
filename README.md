@@ -16,15 +16,15 @@
 
 ## 🌐 Quick Links  
 
-- 💥 **New Website (Explore Datasets):** [https://www.openconstruction.org/](https://www.openconstruction.org/)  
+- 💥 **New Website:** [https://www.openconstruction.org/](https://www.openconstruction.org/)  
 - **Suggest a New Dataset:** [Submit here](https://github.com/ruoxinx/OpenConstruction-Datasets/issues/new?template=new_dataset.yml)  
 - **Share an Idea or Feedback:** [Open suggestion](https://github.com/ruoxinx/OpenConstruction-Datasets/issues/new?template=suggestion.yml)  
-- **Request Dataset Removal:** Contact us at **[ruoxinx@outlook.com](mailto:ruoxinx@outlook.com)** from a verifiable email
+- **Request Dataset Removal:** Contact us at **[support@openconstruction.org](mailto:support@openconstruction.org)** from a verifiable email
 
 
 ## 📋 Overview  
 
-**OpenConstruction** is a curated collection of open-access datasets for construction monitoring and analysis.  
+**OpenConstruction** dataset catalog is a curated collection of open-access datasets for construction monitoring and analysis.  
 It provides a centralized resource for researchers, practitioners, and developers working on AI applications in the construction industry.  
 
 
@@ -83,7 +83,7 @@ This project is enriched by the support and contributions from the community. Th
 
 For questions, suggestions, or collaboration:  
 - Open an [issue](https://github.com/ruoxinx/OpenConstruction-Datasets/issues)  
-- Email: **rxiong3@kent.edu**  
+- Email: **support@openconstruction.org**  
 
 
 ## 🙏 Acknowledgments  
