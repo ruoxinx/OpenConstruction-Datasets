@@ -7,6 +7,70 @@
     <language>en-US</language>
 
   <item>
+    <title><![CDATA[Model: DUSt3R: Geometric 3D Vision Made Easy]]></title>
+    <link>https://www.openconstruction.org/models.html</link>
+    <guid isPermaLink="false">models:DUSt3R:2025-12-09</guid>
+    <pubDate>Tue, 09 Dec 2025 00:00:00 GMT</pubDate>
+    <description><![CDATA[Multi-view stereo reconstruction (MVS) in the wild requires to first estimate the camera parameters e.g. intrinsic and extrinsic parameters. These are usually tedious and cumbersome to obtain, yet they are mandatory to triangulate corresponding pixels in 3D space, which is the core of all best performing MVS algorithms. In this work, we take an opposite stance and introduce DUSt3R, a radically novel paradigm for Dense and Unconstrained Stereo 3D Reconstruction of arbitrary image collections, i.e. operating without prior information about camera calibration nor viewpoint poses. We cast the pairwise reconstruction problem as a regression of pointmaps, relaxing the hard constraints of usual projective camera models. We show that this formulation smoothly unifies the monocular and binocular reconstruction cases. In the case where more than two images are provided, we further propose a simple yet effective global alignment strategy that expresses all pairwise pointmaps in a common reference frame. We base our network architecture on standard Transformer encoders and decoders, allowing us to leverage powerful pretrained models. Our formulation directly provides a 3D model of the scene as well as depth information, but interestingly, we can seamlessly recover from it, pixel matches, relative and absolute camera. Exhaustive experiments on all these tasks showcase that the proposed DUSt3R can unify various 3D vision tasks and set new SoTAs on monocular/multi-view depth estimation as well as relative pose estimation. In summary, DUSt3R makes many geometric 3D vision tasks easy.]]></description>
+  </item>
+
+  <item>
+    <title><![CDATA[Model: EnergyPlus-MCP: A model-context-protocol server for AI-driven building energy modeling]]></title>
+    <link>https://www.openconstruction.org/models.html</link>
+    <guid isPermaLink="false">models:EnergyPlus-MCP:2025-12-08</guid>
+    <pubDate>Mon, 08 Dec 2025 00:00:00 GMT</pubDate>
+    <description><![CDATA[Traditional building energy modeling with the EnergyPlus building performance simulation engine requires domain expertise, programming skills, and intensive manual efforts limiting its effective adoption. This paper introduces EnergyPlus-MCP, the first open-source Model Context Protocol (MCP) server specifically designed for EnergyPlus simulation workflows, establishing a new foundational infrastructure for AI-driven building energy modeling. The MCP server implements a layered architecture with 35 specialized tools spanning model management, editing and analysis, HVAC and other systems configuration inspection, and simulation execution, enabling Large Language Models to interact with EnergyPlus through conversational interfaces. The server addresses critical workflow barriers by automating model validation, streamlining energy efficiency measures modification, and providing intelligent output management with interactive visualization. Through practical demonstrations using a multi-zone building retrofit analysis, we show how the EnergyPlus-MCP server significantly reduces manual efforts while maintaining full simulation rigor. By providing accessible natural language interfaces to sophisticated building energy analysis, this approach enables scalable deployment of simulation expertise across public and private organizations, educational institutions, and research teams, fundamentally transforming traditional building energy modeling practices.]]></description>
+  </item>
+
+  <item>
+    <title><![CDATA[Model: A KG-LLM-Enabled Inspection Work Packaging Approach in Module Prefabrication]]></title>
+    <link>https://www.openconstruction.org/models.html</link>
+    <guid isPermaLink="false">models:KG-LLM-inspection-work-packaging:2025-12-05</guid>
+    <pubDate>Fri, 05 Dec 2025 00:00:00 GMT</pubDate>
+    <description><![CDATA[Quality inspection during the production of modular construction (MC) is critical to the success of MC projects because defects such as geometric errors can severely impact installation. Therefore, the effective organization and management of quality inspection is essential. Although work packaging has proven to be an effective method for project planning, automatically and accurately generating inspection work packages remains a challenge, particularly in mass production. To this end, this study aims to develop a knowledge graph-large language model (KG-LLM)-enabled inspection work packaging approach in MC production. First, a KG is constructed to represent inspection knowledge, encompassing inspection tasks, target MC products, inspectors, inspection tools, inspection frequencies, and corresponding production processes, which can enrich LLM in product2inspection mapping and can help identify features of inspection tasks for inspection2package clustering. Second, a prompt-based product2inspection mapping approach leveraging LLM is developed. Next, inspection2package clustering is completed through hierarchical agglomerative clustering, with parameters optimized by particle swarm optimization (PSO). Finally, the effectiveness of the proposed approach is validated through controlled experiments on an MC case project. This study demonstrates how leveraging KG and LLMs can enhance collaboration in quality inspection during module prefabrication and highlights the potential of LLMs in the construction domain.]]></description>
+  </item>
+
+  <item>
+    <title><![CDATA[Dataset: GlobalBuildingAtlas]]></title>
+    <link>https://www.openconstruction.org/datasets/detail.html?id=GlobalBuildingAtlas</link>
+    <guid isPermaLink="false">datasets:GlobalBuildingAtlas:2025-12-4</guid>
+    <pubDate>Thu, 04 Dec 2025 00:00:00 GMT</pubDate>
+    <description><![CDATA[New dataset added to OpenConstruction.]]></description>
+  </item>
+
+  <item>
+    <title><![CDATA[Dataset: Global dataset of critical infrastructure]]></title>
+    <link>https://www.openconstruction.org/datasets/detail.html?id=CISI</link>
+    <guid isPermaLink="false">datasets:CISI:2025-11-28</guid>
+    <pubDate>Fri, 28 Nov 2025 00:00:00 GMT</pubDate>
+    <description><![CDATA[New dataset added to OpenConstruction.]]></description>
+  </item>
+
+  <item>
+    <title><![CDATA[Dataset: VideoCAD: Learning Long-Horizon 3D CAD UI Interactions from Video]]></title>
+    <link>https://www.openconstruction.org/datasets/detail.html?id=VideoCAD</link>
+    <guid isPermaLink="false">datasets:VideoCAD:2025-11-26</guid>
+    <pubDate>Wed, 26 Nov 2025 00:00:00 GMT</pubDate>
+    <description><![CDATA[New dataset added to OpenConstruction.]]></description>
+  </item>
+
+  <item>
+    <title><![CDATA[Dataset: Construction Management Systems (CMS) Domain Corpora]]></title>
+    <link>https://www.openconstruction.org/datasets/detail.html?id=cms-domain-corpora</link>
+    <guid isPermaLink="false">datasets:cms-domain-corpora:2025-11-26</guid>
+    <pubDate>Wed, 26 Nov 2025 00:00:00 GMT</pubDate>
+    <description><![CDATA[New dataset added to OpenConstruction.]]></description>
+  </item>
+
+  <item>
+    <title><![CDATA[Model: VideoCADFormer: A Model for Learning Long-Horizon 3D CAD UI Interactions from Video]]></title>
+    <link>https://www.openconstruction.org/models.html</link>
+    <guid isPermaLink="false">models:VideoCAD:2025-11-26</guid>
+    <pubDate>Wed, 26 Nov 2025 00:00:00 GMT</pubDate>
+    <description><![CDATA[Computer-Aided Design (CAD) is a time-consuming and complex process, requiring precise, long-horizon user interactions with intricate 3D interfaces. While recent advances in AI-driven user interface (UI) agents show promise, most existing datasets and methods focus on short, low-complexity tasks in mobile or web applications, failing to capture the demands of professional engineering tools. In this work, we introduce VideoCAD, the first attempt to model UI interactions for precision engineering tasks. Specifically, VideoCAD is a large-scale synthetic dataset consisting of over 41K annotated video recordings of CAD operations, generated using an automated framework for collecting high-fidelity UI action data from human-made CAD designs. Compared to existing datasets, VideoCAD offers an order-of-magnitude increase in complexity for real-world engineering UI tasks, with time horizons up to 20x longer than those in other datasets. We show two important downstream applications of VideoCAD: (1) learning UI interactions from professional 3D CAD tools for precision tasks and (2) a visual question-answering (VQA) benchmark designed to evaluate multimodal large language models (LLMs) on spatial reasoning and video understanding. To learn the UI interactions, we propose VideoCADFormer, a state-of-the-art model for learning CAD interactions directly from video, which outperforms existing behavior cloning baselines. Both VideoCADFormer and the VQA benchmark derived from VideoCAD reveal key challenges in the current state of video-based UI understanding, including the need for precise action grounding, multi-modal and spatial reasoning, and long-horizon dependencies.]]></description>
+  </item>
+
+  <item>
     <title><![CDATA[Dataset: Fire-ART: Firefighting asset recognition dataset]]></title>
     <link>https://www.openconstruction.org/datasets/detail.html?id=Fire-ART</link>
     <guid isPermaLink="false">datasets:Fire-ART:2025-11-22</guid>
@@ -19,70 +83,6 @@
     <link>https://www.openconstruction.org/datasets/detail.html?id=vtt-coniot</link>
     <guid isPermaLink="false">datasets:vtt-coniot:2025-11-18</guid>
     <pubDate>Tue, 18 Nov 2025 00:00:00 GMT</pubDate>
-    <description><![CDATA[New dataset added to OpenConstruction.]]></description>
-  </item>
-
-  <item>
-    <title><![CDATA[Dataset: Dataset for generation of LOD4 models for buildings]]></title>
-    <link>https://www.openconstruction.org/datasets/detail.html?id=LOD4-Building-Image-Modeling</link>
-    <guid isPermaLink="false">datasets:LOD4-Building-Image-Modeling:2025-11-17</guid>
-    <pubDate>Mon, 17 Nov 2025 00:00:00 GMT</pubDate>
-    <description><![CDATA[New dataset added to OpenConstruction.]]></description>
-  </item>
-
-  <item>
-    <title><![CDATA[Model: Automated image-based generation of finite element models for masonry buildings]]></title>
-    <link>https://www.openconstruction.org/models.html</link>
-    <guid isPermaLink="false">models:FEM_buildings:2025-11-17</guid>
-    <pubDate>Mon, 17 Nov 2025 00:00:00 GMT</pubDate>
-    <description><![CDATA[To predict the response of masonry buildings to various types of loads, engineers use finite element models, specifically solid-element and macro-element models. For predicting masonry responses to seismic events in particular, equivalent frame models—a subcategory of macro-element models—are a common choice because of their low computational cost. However, an existing bottleneck in modeling pipelines is generating the geometry of the model, which is currently a slow and laborious process that is done manually using computer-aided design tools. In this paper, we address this by automating the modelling process using recent advancements in computer vision and machine learning. We present an image-based end-to-end pipeline that automatically generates finite element meshes for solid-element and equivalent-frame models of the outer walls of free-standing historical masonry buildings. As the input, our framework requires RGB images of the buildings that are processed using structure-from-motion algorithms, which create 3D geometries, and convolutional neural networks, which segment the openings and their corners. These layers are then combined to generate level of detail models. We tested our pipeline on structures with irregular surface geometries and opening layouts. While generating the solid element mesh from the level of detail model is straightforward, generating equivalent frame models required algorithms for segmenting the façade and the meshing. Experts in the field analyzed the generated equivalent frame models and determined them to be useful for numerical modeling. These finite element geometries will be invaluable for future predictions of the seismic response of damaged and undamaged buildings. The codes and dataset are publicly available for future studies and benchmarking (https://github.com/eesd-epfl/FEM_buildings and https://doi.org/10.5281/zenodo.8094306).]]></description>
-  </item>
-
-  <item>
-    <title><![CDATA[Model: Image-based geometric digital twinning for stone masonry elements]]></title>
-    <link>https://www.openconstruction.org/models.html</link>
-    <guid isPermaLink="false">models:stone_masonry_GDT:2025-11-17</guid>
-    <pubDate>Mon, 17 Nov 2025 00:00:00 GMT</pubDate>
-    <description><![CDATA[We present an image-based pipeline for generating geometrical digital twins (GDTs) of stone masonry elements with detail down to the stone level. For this purpose, we acquire RGB images of the individual stones and of the wall during the construction phase. In our framework, we use structure from motion (SfM) to first generate 3D source and destination models, which are then registered to form the GDT through non-linear least squares and 2D point feature correspondences detected on the SfM images. This method contrasts with traditional techniques that register point clouds using 3D point descriptors. Because of the robustness of image feature descriptors, we found that using 2D instead of 3D point features facilitates the automation of the GDT generation. To benchmark our algorithm, we compared the results through an Euclidean–distance-based proposed metric with a known 3D textured model from which images were synthetically generated. We show the robustness and feasibility of our method for full size elements, wherein GDTs were generated for dry-stone and stone-mortar systems. This study allows researchers to produce accurate representations of the 3D geometry of walls built for experimental research, reducing therefore uncertainties related to the stone size, shape and arrangement to a minimum when comparing 3D numerical simulations of these walls to experimental results. Codes and data sets are publicly available (https://github.com/eesd-epfl/stone_masonry_GDT and https://doi.org/10.5281/zenodo.7266587).]]></description>
-  </item>
-
-  <item>
-    <title><![CDATA[Dataset: Dataset for continuity-preserving crack detection]]></title>
-    <link>https://www.openconstruction.org/datasets/detail.html?id=TOPO-Loss-Crack</link>
-    <guid isPermaLink="false">datasets:TOPO-Loss-Crack:2025-11-16</guid>
-    <pubDate>Sun, 16 Nov 2025 00:00:00 GMT</pubDate>
-    <description><![CDATA[New dataset added to OpenConstruction.]]></description>
-  </item>
-
-  <item>
-    <title><![CDATA[Model: TOPO-Loss for continuity-preserving crack detection using deep learning]]></title>
-    <link>https://www.openconstruction.org/models.html</link>
-    <guid isPermaLink="false">models:topo_crack_detection:2025-11-16</guid>
-    <pubDate>Sun, 16 Nov 2025 00:00:00 GMT</pubDate>
-    <description><![CDATA[We present a method for segmenting cracks in images of masonry buildings damaged by earthquakes. Existing methods of crack detection fail to preserve the continuity of cracks, and their performance deteriorates with imprecise training labels. We address these problems by adapting an approach previously proposed for reconstructing roads in aerial images, in which a Convolutional Neural Network is trained with a loss function specifically designed to encourage the continuity of thin structures and to accommodate imprecise annotations. We evaluate combinations of three loss functions (the Mean Squared Error, the Dice loss and the new connectivity-oriented loss) on two datasets using TernausNet, a deep network shown to attain state-of-the-art accuracy in crack detection. We herein show that combining these three losses significantly improves the topology of the predictions quantitatively and qualitatively. We also propose a new continuity metric, named Cracks Per Patch (CPP), and share a new dataset of images of earthquake-affected urban scenes accompanied by crack annotations. The dataset and implementations are publicly available for future studies and benchmarking (https://github.com/eesd-epfl/topo_crack_detection and https://doi.org/10.5281/zenodo.6769028).]]></description>
-  </item>
-
-  <item>
-    <title><![CDATA[Model: Determining crack kinematics from imaged crack patterns]]></title>
-    <link>https://www.openconstruction.org/models.html</link>
-    <guid isPermaLink="false">models:crack_kinematics:2025-11-15</guid>
-    <pubDate>Sat, 15 Nov 2025 00:00:00 GMT</pubDate>
-    <description><![CDATA[Determining the relationship between the cause of damage and the subsequent structural behavior of infrastructure systems requires an accurate characterization of the propagation of cracks, which represents the evolution of the damage state. When no information about the cause of damage is available, kinematic approaches can be used to describe the motion of crack contours. Current image-based approaches to derive crack kinematics use digital image correlation (DIC) on a set of sequential images as the crack propagates. However, DIC is invasive in that the structure surfaces must be painted with random speckle patterns, limiting its use primarily to controlled experiments. In this paper, we propose a novel image-based methodology for computing crack opening in Mode I or Mode II. As an input, this method takes a binary image from a semantic segmentation of an image of a crack pattern. This binary image is used to detect the opposite edges along the crack, which are then registered using an optimization algorithm based on the Euclidean transformation model and non-linear least squares. As a final output, this method produces displacement maps in the tangential and normal directions to the crack skeleton. To demonstrate its performance, we validate our methodology first with synthetic crack patterns and then with real crack patterns. Because this methodology for determining crack openings requires only simple data (just a binary crack pattern image), it is straightforward, robust, and adaptable, thus contributing to the development of structural image-based damage assessments. The computational codes and datasets are available to the public for future research and benchmarking on]]></description>
-  </item>
-
-  <item>
-    <title><![CDATA[Model: Damage-augmented digital twins towards the automated inspection of buildings]]></title>
-    <link>https://www.openconstruction.org/models.html</link>
-    <guid isPermaLink="false">models:dadt-buildings-model:2025-11-14</guid>
-    <pubDate>Fri, 14 Nov 2025 00:00:00 GMT</pubDate>
-    <description><![CDATA[Current procedures for the rapid inspection of buildings and infrastructure are subjective, time-consuming, and cumbersome to document, necessitating new technologies to automate the process and eliminate these shortcomings. Fortunately, recent developments in imaging devices and artificial intelligence, such as computer vision, provide the necessary tools for this, though they are not yet integrated into infrastructure applications. In this paper, we propose an end-to-end pipeline that generates damage-augmented digital twins for buildings at LOD3, including geometrical information as well as data pertaining to damage condition and its characterization. Our framework incorporates multiple-view images to (1) create a level of detail model, (2) segment damage information, and (3) characterize damage. The core of the method is the structure from motion, which is used to reconstruct the building scene, and machine-learning models that segment and characterize damage. In contrast to current practices, our method does not require manual intervention, generates lightweight models, and can be applied to a wide range of assets. The results generated with our pipeline represent a significant step towards an automated infrastructure damage assessment. We intend to expand our work in the future to include real-time applications and applications to other types of infrastructure. Codes and data sets are publicly available (https://github.com/eesd-epfl/DADT_buildings and https://doi.org/10.5281/zenodo.7767478).]]></description>
-  </item>
-
-  <item>
-    <title><![CDATA[Dataset: Dataset for generating LOD3 building models from SfM and semantic segmentation]]></title>
-    <link>https://www.openconstruction.org/datasets/detail.html?id=Opening-Segmentation</link>
-    <guid isPermaLink="false">datasets:Opening-Segmentation:2025-11-13</guid>
-    <pubDate>Thu, 13 Nov 2025 00:00:00 GMT</pubDate>
     <description><![CDATA[New dataset added to OpenConstruction.]]></description>
   </item>
   </channel>
