@@ -66,16 +66,9 @@ We welcome community contributions to grow and improve this catalog. Use the qui
 
 ## 👥 Community Contributors  
 
-This project is enriched by the support and contributions from the community. Thank you for helping grow **OpenConstruction**!  
+This project is enriched by the support and contributions from the community. Thank you for helping grow **OpenConstruction**! 
 
-<p>
-  <a href="https://github.com/tsrobcvai">
-    <img src="https://github.com/tsrobcvai.png" width="60" height="60" style="border-radius:50%; margin: 4px;" alt="@tsrobcvai"/>
-    <br/>
-    <sub>@tsrobcvai</sub>
-  </a>
-</p>
-
+See full contributor list here: [OpenConstruction Community](https://www.openconstruction.org/contributors.html?cpage=1)
 
 
 ## 📧 Contact  
