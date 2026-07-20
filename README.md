@@ -6,8 +6,8 @@
   <a href="https://www.openconstruction.org/">
     <img src="https://img.shields.io/badge/Website-OpenConstruction-blue?style=flat-square&logo=google-chrome" alt="Website">
   </a>
-  <a href="https://arxiv.org/abs/2508.11482">
-    <img src="https://img.shields.io/badge/arXiv-2508.11482-b31b1b?style=flat-square&logo=arxiv" alt="arXiv">
+  <a href="https://doi.org/10.1061/JCCEE5.CPENG-7313">
+    <img src="https://img.shields.io/badge/DOI-10.1061%2FJCCEE5.CPENG--7313-blue?style=flat-square" alt="DOI">
   </a>
   <a href="https://github.com/ruoxinx/OpenConstruction-Datasets/issues">
     <img src="https://img.shields.io/badge/Contributions-Welcome-brightgreen?style=flat-square&logo=github" alt="Contributions Welcome">
@@ -16,7 +16,7 @@
 
 ## 🌐 Quick Links  
 
-- 💥 **Website:** [https://www.openconstruction.org/](https://www.openconstruction.org/)  
+- **Website:** [https://www.openconstruction.org/](https://www.openconstruction.org/)  
 - **Suggest a New Dataset:** [Submit here](https://github.com/ruoxinx/OpenConstruction-Datasets/issues/new?template=new_dataset.yml)  
 - **Share an Idea or Feedback:** [Open suggestion](https://github.com/ruoxinx/OpenConstruction-Datasets/issues/new?template=suggestion.yml)  
 - **Request Dataset Removal:** Contact us at **[support@openconstruction.org](mailto:support@openconstruction.org)** from a verifiable email
@@ -90,6 +90,8 @@ We thank all dataset creators and contributors for making their resources public
 
 ## 📚 Citation  
 
+### OpenConstruction Dataset Catalog
+
 ```bibtex
 @article{xiong2026openconstruction,
   title={OpenConstruction: A Systematic Synthesis of Open Visual Data Sets for Data-Centric Intelligence in Construction Monitoring},
@@ -99,9 +101,14 @@ We thank all dataset creators and contributors for making their resources public
   number={5},
   pages={03126002},
   year={2026},
-  publisher={American Society of Civil Engineers}
+  publisher={American Society of Civil Engineers},
+  doi={10.1061/JCCEE5.CPENG-7313}
 }
+```
 
+### Open Science and Digital Asset Sharing
+
+```bibtex
 @article{xiong2026toward,
   title={Toward open science in the AEC community: An ecosystem for sustainable digital assets sharing and reuse},
   author={Xiong, Ruoxin and Wang, Yanyu and Cai, Jiannan and Liu, Kaijian and Zhu, Yuansheng and Tang, Pingbo and El-Gohary, Nora and Gibson Jr, George Edward},
