@@ -3,7 +3,7 @@
 </h1>
 
 <p align="center">
-  <a href="https://ruoxinx.github.io/open-construction">
+  <a href="https://www.openconstruction.org/">
     <img src="https://img.shields.io/badge/Website-OpenConstruction-blue?style=flat-square&logo=google-chrome" alt="Website">
   </a>
   <a href="https://arxiv.org/abs/2508.11482">
@@ -16,15 +16,20 @@
 
 ## 🌐 Quick Links  
 
-- 💥 **New Website:** [https://www.openconstruction.org/](https://www.openconstruction.org/)  
+- 💥 **Website:** [https://www.openconstruction.org/](https://www.openconstruction.org/)  
 - **Suggest a New Dataset:** [Submit here](https://github.com/ruoxinx/OpenConstruction-Datasets/issues/new?template=new_dataset.yml)  
 - **Share an Idea or Feedback:** [Open suggestion](https://github.com/ruoxinx/OpenConstruction-Datasets/issues/new?template=suggestion.yml)  
 - **Request Dataset Removal:** Contact us at **[support@openconstruction.org](mailto:support@openconstruction.org)** from a verifiable email
 
 
+## 📰 News
+
+- **July 2026:** A related research effort associated with OpenConstruction received U.S. National Science Foundation [**Award No. 2612086**](https://www.nsf.gov/awardsearch/show-award?AWD_ID=2612086). Any opinions, findings, and conclusions or recommendations expressed in this repository do not necessarily reflect the views of the National Science Foundation.
+
+
 ## 📋 Overview  
 
-**OpenConstruction** dataset catalog is a curated collection of open-access datasets for construction monitoring and analysis. It provides a centralized resource for researchers, practitioners, and developers working on AI applications in the construction industry.  
+The **OpenConstruction** dataset catalog is a curated collection of open-access datasets for construction monitoring and analysis. It provides a centralized resource for researchers, practitioners, and developers working on AI applications in the construction industry.  
 
 
 ## 🎯 Motivation  
@@ -40,7 +45,7 @@ This project addresses that need by:
 
 ## 📊 Dataset Categories  
 
-Our catalog spans a variety of construction-relevant tasks:  
+The catalog spans a variety of construction-relevant tasks:  
 
 - **Object Detection** 
 - **Semantic Segmentation**  
@@ -66,7 +71,7 @@ We welcome community contributions to grow and improve this catalog. Use the qui
 
 ## 👥 Community Contributors  
 
-This project is enriched by the support and contributions from the community. Thank you for helping grow **OpenConstruction**! 
+This project is enriched by community support and contributions. Thank you for helping grow **OpenConstruction**.
 
 See full contributor list here: [OpenConstruction Community](https://www.openconstruction.org/contributors.html?cpage=1)
 
@@ -80,18 +85,30 @@ For questions, suggestions, or collaboration:
 
 ## 🙏 Acknowledgments  
 
-We thank all dataset creators and contributors for making their resources publicly available to advance AI in construction.  
+We thank all dataset creators and contributors for making their resources publicly available to advance AI in construction.
 
 
-### Reference  
+## 📚 Citation  
 
 ```bibtex
-@misc{xiong2025openconstructionsystematicsynthesisopen,
-      title={OpenConstruction: A Systematic Synthesis of Open Visual Datasets for Data-Centric Artificial Intelligence in Construction Monitoring}, 
-      author={Ruoxin Xiong and Yanyu Wang and Jiannan Cai and Kaijian Liu and Yuansheng Zhu and Pingbo Tang and Nora El-Gohary},
-      year={2025},
-      eprint={2508.11482},
-      archivePrefix={arXiv},
-      primaryClass={cs.CV},
-      url={https://arxiv.org/abs/2508.11482}, 
+@article{xiong2026openconstruction,
+  title={OpenConstruction: A Systematic Synthesis of Open Visual Data Sets for Data-Centric Intelligence in Construction Monitoring},
+  author={Xiong, Ruoxin and Wang, Yanyu and Cai, Jiannan and Liu, Kaijian and Zhu, Yuansheng and Tang, Pingbo and El-Gohary, Nora},
+  journal={Journal of Computing in Civil Engineering},
+  volume={40},
+  number={5},
+  pages={03126002},
+  year={2026},
+  publisher={American Society of Civil Engineers}
 }
+
+@article{xiong2026toward,
+  title={Toward open science in the AEC community: An ecosystem for sustainable digital assets sharing and reuse},
+  author={Xiong, Ruoxin and Wang, Yanyu and Cai, Jiannan and Liu, Kaijian and Zhu, Yuansheng and Tang, Pingbo and El-Gohary, Nora and Gibson Jr, George Edward},
+  journal={Developments in the Built Environment},
+  volume={26},
+  pages={100909},
+  year={2026},
+  publisher={Elsevier}
+}
+```
