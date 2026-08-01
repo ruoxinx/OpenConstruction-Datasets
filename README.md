@@ -1,5 +1,5 @@
 <h1 align="center"> 
-  OpenConstruction: A Systematic Synthesis of Open Visual Datasets for Data-Centric Artificial Intelligence in Construction Monitoring
+  OpenConstruction: A Systematic Synthesis of Open Datasets for Data-Centric Artificial Intelligence in Architecture, Engineering and Construction (AEC)
 </h1>
 
 <p align="center">
